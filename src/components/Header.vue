@@ -10,7 +10,16 @@
         <img class="header-logo" src="/svg/cra-logo.svg">
       </g-link>
       <nav class="navbar navbar-dark">
-        <g-link class="nav-link" to="/about-us">About Us</g-link>
+        <g-link class="nav-link" to="/about-us">
+          About Us
+          <img src="/svg/downarrow.svg">
+          <div class="drowdown-menu">
+            <g-link to="/the-team">The Team</g-link>
+            <g-link to="/our-approach">Our Approach</g-link>
+            <g-link to="/our-philosophy">Our Philosophy</g-link>
+            <g-link to="/our-stories">Our Stories</g-link>
+          </div>
+        </g-link>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
         <g-link class="nav-link" to="/our-clients">Our Clients</g-link>
         <g-link class="nav-link" to="/contact-us">Contact Us</g-link>
@@ -71,6 +80,38 @@ export default {
   &:hover,
   &:focus {
     color: lighten($mine-shaft, 20%);
+  }
+}
+
+.nav-link {
+  position: relative;
+}
+.drowdown-menu {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  transition: all 300ms linear;
+  background: $white;
+  box-shadow: $box-shadow;
+
+  a {
+    border-bottom: 1px solid $mine-shaft;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    display: block;
+    white-space: nowrap;
+
+    &:hover {
+      background: $dusty-gray;
+      color: $white;
+    }
+  }
+}
+
+.nav-link:hover {
+  .drowdown-menu {
+    opacity: 1;
+    pointer-events: auto;
   }
 }
 </style>
