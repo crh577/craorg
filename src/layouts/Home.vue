@@ -19,4 +19,21 @@ export default {
 </script>
 
 <style lang="scss">
+.gloabl-nav {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.header-logo {
+  width: 45.8rem;
+  height: 13.7rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.navbar {
+  margin: 2rem 0;
+  justify-content: center;
+  float: none;
+}
 </style>

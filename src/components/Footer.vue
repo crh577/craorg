@@ -1,0 +1,74 @@
+<template>
+  <div>
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img class="footer-logo" src="/svg/cra-logo-white.svg">
+          </div>
+          <div class="col-md-8 footer-right align-items-center">
+            <ul class="footer-links">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Our Services</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+            <p>&copy;2019 Critical Response Associates. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Footer"
+};
+</script>
+
+<style lang="scss" scoped>
+// Footer styles
+footer {
+  background: $heavy-metal;
+  padding: 4.5rem 0;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-links li {
+  display: inline-block;
+  padding-left: 2rem;
+}
+
+.footer-links li a {
+  color: $white;
+  text-decoration: none;
+  font-size: 2.2rem;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover,
+  &:focus {
+    color: darken($white, 20%);
+  }
+}
+
+.footer-right p {
+  color: $silver;
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+}
+</style>
