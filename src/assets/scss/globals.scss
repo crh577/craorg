@@ -1,0 +1,29 @@
+// Functions
+// Converts em to px
+@function em($px) {
+  @return ($px / 16px) * 1em;
+}
+
+// Typography
+$open-sans: "Open Sans", sans-serif;
+$montserrat: "Montserrat", sans-serif;
+
+// Colors
+$mine-shaft: #202020;
+$cod-gray: #161616;
+$heavy-metal: #2a2a2a;
+$boston-blue: #3573bb;
+$shiraz: #b80628;
+$silver: #c3c3c3;
+$dusty-gray: #979797;
+$concrete: #f2f2f2;
+$white: #ffffff;
+
+// Shadow
+$box-shadow: 0 1.5rem 3.5rem rgba(50, 50, 93, 0.1),
+  0 0.5rem 1.5rem rgba(0, 0, 0, 0.07);
+
+// Border-radius
+$border-radius: 0.4rem;
+
+$responsive-break: em(1040px);

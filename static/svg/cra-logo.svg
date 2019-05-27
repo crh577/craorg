@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="455px" height="136px" viewBox="0 0 455 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.265 0.1983 113.313 0.1983 113.313 44 0.265 44"></polygon>
+        <polygon id="path-3" points="0.01 0.844 118.374 0.844 118.374 71.4264 0.01 71.4264"></polygon>
+        <polygon id="path-5" points="0 0.038 151.102 0.038 151.102 69.766616 0 69.766616"></polygon>
+        <polygon id="path-7" points="0 136 511.999 136 511.999 0.844 0 0.844"></polygon>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-499.000000, -45.000000)">
+            <g id="Logo" transform="translate(499.000000, 45.000000)">
+                <text id="Critical-Response" font-family="Avenir-Roman, Avenir" font-size="37.0568" font-weight="normal" letter-spacing="0.08" fill="#565656">
+                    <tspan x="169.319395" y="72">Cri</tspan>
+                    <tspan x="217.585008" y="72" letter-spacing="0.11335112">t</tspan>
+                    <tspan x="230.779409" y="72">ical Response</tspan>
+                </text>
+                <text id="ASSOCIATES" font-family="Avenir-Light, Avenir" font-size="18.0001" font-weight="300" letter-spacing="2" fill="#565656">
+                    <tspan x="251.465703" y="101">ASSOCIATE</tspan>
+                    <tspan x="366.288241" y="101" letter-spacing="0.238">S</tspan>
+                </text>
+                <g stroke-width="1" fill-rule="evenodd">
+                    <g id="Group-3" transform="translate(46.000000, 92.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M64.855,22.6943 C47.994,22.6943 33.245,13.6733 25.156,0.1983 C16.476,1.5113 8.119,2.3293 0.265,2.6173 C10.515,26.9083 34.58,44.0003 62.558,44.0003 C81.979,44.0003 100.476,35.6313 113.313,21.0443 L98.581,8.0863 C90.14,17.0733 78.157,22.6943 64.855,22.6943" id="Fill-1" fill="#C60139" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(41.000000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M69.855,22.1494 C83.183,22.1494 95.186,27.7924 103.629,36.8084 L118.374,23.8734 C105.533,9.2404 87.012,0.8434 67.558,0.8434 C30.955,0.8434 1.059,30.0924 0.01,66.4474 C6.06,68.9484 14.155,70.6584 23.69,71.4264 C23.626,70.4324 23.582,69.4324 23.582,68.4214 C23.582,42.8664 44.299,22.1494 69.855,22.1494" id="Fill-4" fill="#C60139" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 21.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <path d="M120.603,50.293 C61.919,61.07 22.637,55.079 25.436,29.696 C26.505,20.009 37.426,9.669 53.055,0.038 C18.481,15.036 -0.085,31.829 -5.42101086e-20,47.089 C0.119,68.299 41.279,77.716 98.092,61.74 C117.359,56.323 135.623,50.195 151.102,42.786 C141.352,45.749 131.112,48.294 120.603,50.293" id="Fill-7" fill="#7D7D7D" mask="url(#mask-6)"></path>
+                    </g>
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-10"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

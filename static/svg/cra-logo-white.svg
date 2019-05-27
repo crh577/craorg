@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="302px" height="90px" viewBox="0 0 302 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.175479139 0.130878 75.0342177 0.130878 75.0342177 29.04 0.175479139 29.04"></polygon>
+        <polygon id="path-3" points="0.0066218543 0.55704 78.3855381 0.55704 78.3855381 47.141424 0.0066218543 47.141424"></polygon>
+        <polygon id="path-5" points="0 0.02508 100.057543 0.02508 100.057543 46.0459666 0 46.0459666"></polygon>
+    </defs>
+    <g id="--Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-48.000000, -43.000000)">
+            <g id="Logo/White" transform="translate(48.000000, 43.000000)">
+                <text id="Critical-Response" font-family="Avenir-Roman, Avenir" font-size="24.457488" font-weight="normal" letter-spacing="0.0527999988" fill="#FFFFFF">
+                    <tspan x="112.435933" y="47.1">Cri</tspan>
+                    <tspan x="144.291237" y="47.1" letter-spacing="0.0748117402">t</tspan>
+                    <tspan x="152.999543" y="47.1">ical Response</tspan>
+                </text>
+                <text id="ASSOCIATES" font-family="Avenir-Light, Avenir" font-size="11.880066" font-weight="300" letter-spacing="1.32" fill="#FFFFFF">
+                    <tspan x="166.653589" y="66.78">ASSOCIATE</tspan>
+                    <tspan x="242.436464" y="66.78" letter-spacing="0.157080004">S</tspan>
+                </text>
+                <g id="Logo" stroke-width="1" fill-rule="evenodd">
+                    <g id="Group-3" transform="translate(30.460530, 60.720000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M42.9460361,14.978238 C31.7809275,14.978238 22.0143546,9.024378 16.6579367,0.130878 C10.9101672,0.997458 5.37628351,1.537338 0.175479139,1.727418 C6.9628798,17.759478 22.8983722,29.040198 41.4249962,29.040198 C54.2852994,29.040198 66.5337433,23.516658 75.0342177,13.889238 L65.2789019,5.336958 C59.6893947,11.268378 51.7544267,14.978238 42.9460361,14.978238" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(27.149603, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M46.2569632,14.618604 C55.0825707,14.618604 63.0307824,18.342984 68.621614,24.293544 L78.3855381,15.756444 C69.882415,6.098664 57.6180787,0.556644 44.7359233,0.556644 C20.49795,0.556644 0.701254371,19.860984 0.0066218543,43.855284 C4.01284371,45.505944 9.37323477,46.634544 15.6871728,47.141424 C15.644793,46.485384 15.6156568,45.825384 15.6156568,45.158124 C15.6156568,28.291824 29.3341524,14.618604 46.2569632,14.618604" id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 13.860000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <path d="M79.8615495,33.19338 C41.0018597,40.3062 14.9898916,36.35214 16.8433486,19.59936 C17.5512248,13.20594 24.7829519,6.38154 35.132248,0.02508 C12.2378489,9.92376 -0.0562857616,21.00714 -8.13151629e-20,31.07874 C0.0788000662,45.07734 27.3343524,51.29256 64.9550932,40.7484 C77.7134199,37.17318 89.8075746,33.1287 100.057543,28.23876 C93.601235,30.19434 86.8204562,31.87404 79.8615495,33.19338" id="Fill-7" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
