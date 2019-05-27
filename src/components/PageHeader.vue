@@ -1,5 +1,5 @@
 <template>
-  <div class="page-heading" style="background-image: url('./page-heading.png');">
+  <div class="page-heading" style="background-image: url('/page-heading.png');">
     <h1>{{ title }}</h1>
   </div>
 </template>
