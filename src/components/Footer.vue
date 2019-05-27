@@ -4,21 +4,23 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4">
-            <img class="footer-logo" src="/svg/cra-logo-white.svg">
+            <g-link to="/">
+              <img class="footer-logo" src="/svg/cra-logo-white.svg">
+            </g-link>
           </div>
           <div class="col-md-8 footer-right align-items-center">
             <ul class="footer-links">
               <li>
-                <a href="#">Home</a>
+                <g-link to="/">Home</g-link>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <g-link to="/about-us">About Us</g-link>
               </li>
               <li>
-                <a href="#">Our Services</a>
+                <g-link to="/our-stories">Our Services</g-link>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <g-link to="/contact-us">Contact Us</g-link>
               </li>
             </ul>
             <p>&copy;2019 Critical Response Associates. All Rights Reserved</p>

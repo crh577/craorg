@@ -93,6 +93,7 @@ export default {
   transition: all 300ms linear;
   background: $white;
   box-shadow: $box-shadow;
+  z-index: 1;
 
   a {
     border-bottom: 1px solid $mine-shaft;
