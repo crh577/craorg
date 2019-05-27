@@ -1,14 +1,19 @@
-# Default starter for Gridsome
+# CRA Org Gridsome Site
 
-This is the project you get when you run `gridsome create new-project`.
+This is the code for the static CRA Org's gridsome site.
 
 ### 1. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+### 2. Clone the Repository
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+`git clone git@github.com:aburkenpas/craorg.git`
+
+### 3. Run the package manager
+
+`yarn install`
+
+### 4. Start the development server
+
+`gridsome develop`
