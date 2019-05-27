@@ -10,8 +10,8 @@
         <img class="header-logo" src="/svg/cra-logo.svg">
       </g-link>
       <nav class="navbar navbar-dark">
-        <g-link class="nav-link" to="/about-us">
-          About Us
+        <span class="nav-link-dropdown">
+          <g-link class="nav-link" to="/about-us">About Us</g-link>
           <img src="/svg/downarrow.svg">
           <div class="drowdown-menu">
             <g-link to="/the-team">The Team</g-link>
@@ -19,7 +19,8 @@
             <g-link to="/our-philosophy">Our Philosophy</g-link>
             <g-link to="/our-stories">Our Stories</g-link>
           </div>
-        </g-link>
+        </span>
+
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
         <g-link class="nav-link" to="/our-clients">Our Clients</g-link>
         <g-link class="nav-link" to="/contact-us">Contact Us</g-link>
@@ -84,8 +85,13 @@ export default {
 }
 
 .nav-link {
+  display: inline;
+}
+
+.nav-link-dropdown {
   position: relative;
 }
+
 .drowdown-menu {
   opacity: 0;
   position: absolute;
@@ -109,7 +115,7 @@ export default {
   }
 }
 
-.nav-link:hover {
+.nav-link-dropdown:hover {
   .drowdown-menu {
     opacity: 1;
     pointer-events: auto;
