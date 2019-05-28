@@ -12,7 +12,6 @@
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
-    "style-resources-loader": "^1.2.1",
-    // "vue-masonry": "^0.11.7"
+    "style-resources-loader": "^1.2.1"
   }
 }
