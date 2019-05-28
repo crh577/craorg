@@ -4,7 +4,7 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/scss/globals.scss";
 import "~/assets/scss/base.scss";
-import { VueMasonryPlugin } from "vue-masonry";
+const VueMasonryPlugin = require("vue-masonry").VueMasonryPlugin;
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
