@@ -17,12 +17,17 @@
             <g-link to="/the-team">The Team</g-link>
             <g-link to="/our-approach">Our Approach</g-link>
             <g-link to="/our-philosophy">Our Philosophy</g-link>
+          </div>
+        </span>
+        <g-link class="nav-link" to="/our-services">Our Services</g-link>
+        <span class="nav-link-dropdown">
+          <g-link class="nav-link" to="/our-clients">Our Clients</g-link>
+          <img src="/svg/downarrow.svg">
+          <div class="drowdown-menu">
             <g-link to="/our-stories">Our Stories</g-link>
           </div>
         </span>
 
-        <g-link class="nav-link" to="/our-services">Our Services</g-link>
-        <g-link class="nav-link" to="/our-clients">Our Clients</g-link>
         <g-link class="nav-link" to="/contact-us">Contact Us</g-link>
       </nav>
     </header>
