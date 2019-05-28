@@ -11,15 +11,13 @@
 
     <div class="container team-bios">
       <div class="row">
-        <div class="row">
-          <TeamBio
-            v-for="person in people"
-            :key="person.name"
-            :image="person.image"
-            :name="person.name"
-            :bio="person.bio"
-          />
-        </div>
+        <TeamBio
+          v-for="person in people"
+          :key="person.name"
+          :image="person.image"
+          :name="person.name"
+          :bio="person.bio"
+        />
       </div>
     </div>
 

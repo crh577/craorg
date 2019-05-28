@@ -34,6 +34,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.masonry-tile {
+  padding-bottom: 2rem;
+}
+
 .testimonies {
   background: $concrete;
   padding: 5.5rem 0;

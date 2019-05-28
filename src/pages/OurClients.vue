@@ -11,8 +11,9 @@
 
     <div class="testimonies">
       <div class="container">
-        <div class="row">
+        <div class="row" v-masonry transition-duration="1s" item-selector=".masonry-tile">
           <TestimonialCard
+            v-masonry-tile
             v-for="testimonial in testimonials"
             :key="testimonial.quote"
             :quote="testimonial.quote"
@@ -20,6 +21,7 @@
             :author="testimonial.author"
             :authorTitle="testimonial.authorTitle"
             :authorDivision="testimonial.authorDivision"
+            class="masonry-tile"
           />
         </div>
       </div>

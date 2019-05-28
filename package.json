@@ -9,7 +9,8 @@
   "dependencies": {
     "gridsome": "^0.6.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "vue-masonry": "^0.11.7"
   },
   "devDependencies": {
     "style-resources-loader": "^1.2.1"
