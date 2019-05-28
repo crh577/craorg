@@ -1,6 +1,6 @@
 <template>
   <Home>
-    <div class="container">
+    <div class="container container-home">
       <div class="row">
         <div class="col-md-6 hero-left align-items-center">
           <g-image class="hero-image" src="~/assets/images/home/left-hero.png"/>
@@ -63,6 +63,16 @@ export default {
 </script>
 
 <style lang="scss">
+.container-home {
+  max-width: 1340px;
+
+  .row {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 .hero-left,
 .hero-right {
   position: relative;
@@ -133,6 +143,44 @@ export default {
   img {
     height: fit-content;
     align-self: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-copy {
+    padding: 15% 9%;
+
+    p {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .hero-copy {
+    padding: 10% 9%;
+
+    p {
+      font-size: 1.4rem;
+    }
+
+    h2 {
+      font-size: 2.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-left {
+    padding-right: 15px;
+  }
+
+  .hero-right {
+    padding-left: 15px;
   }
 }
 </style>
