@@ -93,6 +93,24 @@ export default {
   display: inline;
 }
 
+.home .gloabl-nav {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.home .header-logo {
+  width: 45.8rem;
+  height: 13.7rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.home .navbar {
+  margin: 2rem 0;
+  justify-content: center;
+  float: none;
+}
+
 .nav-link-dropdown {
   position: relative;
 }
