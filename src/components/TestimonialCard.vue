@@ -7,9 +7,8 @@
         <div class="author-info">
           <p class="author">{{ author }}</p>
           <div class="title">
-            {{ authorTitle}}
+            {{ authorTitle }}
             <span v-if="authorDivision != ''">
-              ,
               <br>
             </span>
             {{ authorDivision }}
