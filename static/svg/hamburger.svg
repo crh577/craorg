@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Hamburger" transform="translate(20.000000, 36.000000)" stroke="#202020" stroke-width="40">
+            <path d="M0,0.5 L160,0.5" id="Line"></path>
+            <path d="M0,64.5 L160,64.5" id="Line-Copy"></path>
+            <path d="M0,128.5 L160,128.5" id="Line-Copy-2"></path>
+        </g>
+    </g>
+</svg>

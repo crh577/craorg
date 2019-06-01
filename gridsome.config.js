@@ -16,7 +16,7 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "CRA",
   chainWebpack: config => {
     // Load variables for all vue-files
     const types = ["vue-modules", "vue", "normal-modules", "normal"];
