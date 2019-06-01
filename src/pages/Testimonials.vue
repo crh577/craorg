@@ -11,9 +11,8 @@
 
     <div class="testimonies">
       <div class="container">
-        <div class="row" v-masonry transition-duration="1s" item-selector=".masonry-tile">
+        <div class="masonry-with-columns">
           <TestimonialCard
-            v-masonry-tile
             v-for="testimonial in testimonials"
             :key="testimonial.quote"
             :quote="testimonial.quote"
@@ -21,7 +20,6 @@
             :author="testimonial.author"
             :authorTitle="testimonial.authorTitle"
             :authorDivision="testimonial.authorDivision"
-            class="masonry-tile"
           />
         </div>
       </div>
@@ -160,6 +158,18 @@ export default {
         color: $dusty-gray;
       }
     }
+  }
+}
+
+.masonry-with-columns {
+  columns: 6 400px;
+  column-gap: 2rem;
+
+  .masonry {
+    width: 300px;
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    width: 100%;
   }
 }
 </style>

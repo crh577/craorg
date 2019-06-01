@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-4">
+  <div class="masonry">
     <div class="testimonial-card">
       <p>"{{ quote }}"</p>
       <div class="testimony-author">
