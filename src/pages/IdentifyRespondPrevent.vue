@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Our Philosophy"/>
+    <PageHeader title="Identify Respond Prevent"/>
     <Page>
       <h2>Identify</h2>
       <p>
