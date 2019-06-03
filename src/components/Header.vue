@@ -19,19 +19,12 @@
           <div class="drowdown-menu">
             <g-link to="/the-team">The Team</g-link>
             <g-link to="/our-approach">Our Approach</g-link>
-            <g-link to="/our-philosophy">Our Philosophy</g-link>
+            <g-link to="/identify-respond-prevent">Identify Respond Prevent</g-link>
             <g-link class="nav-link" to="/testimonials">Testimonials</g-link>
           </div>
         </span>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
-        <span class="nav-link-dropdown nav-link">
-          <g-link class="dd-parent" to="/warning-signs">Warning Signs</g-link>
-          <img src="/svg/downarrow.svg">
-          <div class="drowdown-menu">
-            <g-link to="/warning-signs">Warning Signs</g-link>
-          </div>
-        </span>
-
+        <g-link class="nav-link" to="/warning-signs">Warning Signs</g-link>
         <g-link class="nav-link" to="/contact-us">Contact Us</g-link>
       </nav>
     </header>
