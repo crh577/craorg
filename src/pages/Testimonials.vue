@@ -11,9 +11,8 @@
 
     <div class="testimonies">
       <div class="container">
-        <div class="row" v-masonry transition-duration="1s" item-selector=".masonry-tile">
+        <div class="masonry-with-columns">
           <TestimonialCard
-            v-masonry-tile
             v-for="testimonial in testimonials"
             :key="testimonial.quote"
             :quote="testimonial.quote"
@@ -21,7 +20,6 @@
             :author="testimonial.author"
             :authorTitle="testimonial.authorTitle"
             :authorDivision="testimonial.authorDivision"
-            class="masonry-tile"
           />
         </div>
       </div>
@@ -46,7 +44,7 @@ export default {
             "Thank you for the expert counsel and advice you have provided BP on numerous past workplace violence incidents. Assessing and predicting human behavior is an extemly difficult task and having your resources available to us gives us great comfort. On behalf of BP Corporation, I would also like to extend our thanks and appreciation for the recent training sessions you conducted at several of BP's U.S. and South African facilities.",
           companyLogo: require("~/assets/images/home/client-logo-7.png"),
           author: "John Manelos",
-          authorTitle: "VP, Corporate Security",
+          authorTitle: "VP, Corporate Security,",
           authorDivision: "Gulf Coast Restoration"
         },
         {
@@ -54,7 +52,7 @@ export default {
             "CRA has intervened in several very difficult situations with troubled employees and have assisted us in reaching a positive resolution in all cases. In addition they have provided valuable training in dealing with issues involving potential workplace violence to our Corporate and Field Human Resources personnel, and Dr. Carol Beavers has provided outstanding personal coaching to several key managers. The services provided to Caraustar by Critical Response Associates have been consistently of the highest professional caliber and I would, without reservation, recommend them as a resource for crisis and conflict management as well as managerial coaching to any organization with needs in these areas.",
           companyLogo: require("~/assets/images/home/client-logo-7.png"),
           author: "Barry A. Smedstad ",
-          authorTitle: "Vice President",
+          authorTitle: "Vice President,",
           authorDivision: "Human Resources And Public Relations"
         },
         {
@@ -70,7 +68,7 @@ export default {
             "From my vantage point of 38 years of experience in corporate security and human resources, I can recommend that some of the best training in the prevention and management of workplace violence is offered by Dr. Marc McElhaney and his team from Critical Response Associates. All companies quickly support safety training for their personnel, but many tend to overlook training on how to deal with intentional violence on the job caused by employees, which can be a fatal mistake when workplace violence erupts on a job site. Dr. McElhaney has specialized his entire career in the area of threat assessment and conflict resolution. His workshops are practical, fast paced, with real life examples and solutions that work and should be a ‘must attend’ course for any supervisor or manager.",
           companyLogo: require("~/assets/images/home/client-logo-7.png"),
           author: "John Chamberlain",
-          authorTitle: "Executive Director",
+          authorTitle: "Executive Director,",
           authorDivision: "Energy Security Council"
         },
         {
@@ -78,7 +76,7 @@ export default {
             "Dr. McElhaney and his associates’ ability to identify pivotal issues in dispute and thereafter participate in the development of a resolution strategy has yielded benefits for this company on numerous occasions. Their keen understanding of our employees and our unique business structure has assisted this company in reaching fair and equitable closure to many contentious situations. ",
           companyLogo: require("~/assets/images/home/client-logo-3.png"),
           author: "Bob Brand",
-          authorTitle: "Vice President",
+          authorTitle: "Vice President,",
           authorDivision: "Corporate Security"
         },
         {
@@ -110,7 +108,7 @@ export default {
             "Your services in assisting the company in a very difficult employee termination have certainly helped all concerned move away from the conflict and avoid a potential threat of violent behavior. Thanks again for your help.",
           companyLogo: require("~/assets/images/home/client-logo-7.png"),
           author: "William Foust",
-          authorTitle: "VP",
+          authorTitle: "VP,",
           authorDivision: "Administration"
         },
         {
@@ -160,6 +158,18 @@ export default {
         color: $dusty-gray;
       }
     }
+  }
+}
+
+.masonry-with-columns {
+  columns: 6 400px;
+  column-gap: 2rem;
+
+  .masonry {
+    width: 300px;
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    width: 100%;
   }
 }
 </style>

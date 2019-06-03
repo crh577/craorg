@@ -8,6 +8,8 @@
             <p>I’m Looking for a</p>
             <h2>Workplace Violence Prevention Program</h2>
             <a class="btn base-btn" href="#">Learn More</a>
+            <br>
+            <a class="watch-video" href="#">Watch Video ></a>
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
@@ -109,6 +111,12 @@ export default {
   }
 }
 
+.watch-video {
+  color: $white;
+  padding: 1rem;
+  display: block;
+}
+
 .hero-image {
   width: 100%;
 }
@@ -139,10 +147,13 @@ export default {
 .client-logos {
   display: flex;
   justify-content: space-between;
+  flex-flow: left;
+  flex-wrap: wrap;
 
   img {
     height: fit-content;
     align-self: center;
+    margin: 2rem;
   }
 }
 

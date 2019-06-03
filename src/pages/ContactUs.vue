@@ -33,11 +33,12 @@
         <div class="field-group full">
           <textarea rows="5"></textarea>
         </div>
+        <button class="button">Submit</button>
       </form>
 
       <div class="address">
         Critical Response Associates LLC.
-        <br>P.O. Box 29644 . Atlanta Georgia 30359
+        <br>P.O. Box 29644, Atlanta, Georgia 30359
         <br>Tel. 888.391.2214
       </div>
     </Page>
@@ -88,6 +89,18 @@ export default {
     textarea {
       width: 100%;
     }
+  }
+}
+
+.button {
+  padding: 1rem 3rem;
+  background-color: $shiraz;
+  color: $white;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($shiraz, 10%);
   }
 }
 

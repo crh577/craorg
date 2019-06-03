@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-6 team-bio">
+  <div class="col-lg-6 team-bio">
     <div class="bio-image">
       <img :src="image">
     </div>
