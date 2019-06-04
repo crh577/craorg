@@ -9,7 +9,7 @@
             <h2>Workplace Violence Prevention Program</h2>
             <a class="btn base-btn" href="#">Learn More</a>
             <br>
-            <a class="watch-video" href="#">Watch Video ></a>
+            <a class="watch-video" href="https://www.youtube.com/watch?v=maTt5weiL5o">Watch Video ></a>
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">

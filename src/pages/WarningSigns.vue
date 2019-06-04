@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Our Stories"/>
+    <PageHeader title="Warning Signs"/>
     <div class="container page-content">
       <div class="row">
         <div class="copy-content">
@@ -8,7 +8,6 @@
         </div>
       </div>
     </div>
-
     <div class="container stories">
       <div class="row">
         <Story>

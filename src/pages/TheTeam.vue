@@ -62,7 +62,7 @@ export default {
           image: require("~/assets/images/team/MarcMcElhaney.png"),
           name: "Dr. Marc McElhaney",
           bio:
-            "Dr. Marc McElhaney, a licensed consulting psychologist and a registered mediator, serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk"
+            "Dr. Marc McElhaney, a licensed consulting psychologist and a registered mediator, serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk."
         },
         {
           image: require("~/assets/images/team/TomHS_Final.jpg"),
