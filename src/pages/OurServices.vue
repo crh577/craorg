@@ -2,7 +2,7 @@
   <Layout>
     <PageHeader title="Our Services"/>
     <div class="container page-content">
-      <Service>
+      <Service id="threat-assesment">
         <template v-slot:image>
           <g-image src="~/assets/images/services/threat-assesment.png"/>
         </template>
@@ -11,7 +11,7 @@
         <p>Our response is immediate. We initially assess the severity of the situation, and then recommend a comprehensive plan of action to defuse, stabilize, manage and ultimately resolve the situation as quickly and as safely as possible. Our consultants are skilled in a range of response strategies, including strategic crisis intervention when de-escalating and managing difficult or aggressive individuals.</p>
       </Service>
 
-      <Service>
+      <Service id="prevention">
         <template v-slot:image>
           <g-image src="~/assets/images/services/prevention.png"/>
         </template>

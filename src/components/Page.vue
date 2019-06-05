@@ -24,3 +24,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+@media (min-width: em(768px)) {
+  .copy-content {
+    border-right: 1px solid $mine-shaft;
+  }
+}
+</style>

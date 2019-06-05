@@ -7,9 +7,12 @@
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Workplace Violence Prevention Program</h2>
-            <a class="btn base-btn" href="#">Learn More</a>
+            <a class="btn base-btn" href="/our-services#prevention">Learn More</a>
             <br>
-            <a class="watch-video" href="https://www.youtube.com/watch?v=maTt5weiL5o">Watch Video ></a>
+            <a
+              class="watch-video"
+              href="https://www.youtube.com/watch?v=maTt5weiL5o"
+            >Introduction Video ></a>
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
@@ -17,7 +20,7 @@
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Threat Assessment & Case Consultation</h2>
-            <a class="btn base-btn" href="#">Learn More</a>
+            <a class="btn base-btn" href="/our-services#threat-assesment">Learn More</a>
           </div>
         </div>
       </div>
@@ -115,6 +118,11 @@ export default {
   color: $white;
   padding: 1rem;
   display: block;
+
+  &:hover {
+    color: $white;
+    text-decoration: underline;
+  }
 }
 
 .hero-image {

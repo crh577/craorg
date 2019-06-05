@@ -1,15 +1,11 @@
 <template>
   <Layout>
     <PageHeader title="Testimonials"/>
-    <div class="container page-content">
-      <div class="row">
-        <div class="copy-content">
-          <p>* Because of the nature of our work, and out of respect to the privacy of our clients, it is our policy not to reveal our clients by name. With their permission, we have included below what some of our clients have said about us, in their correspondence to us. Many of our clients have agreed to serve as references: their contact information are always available on request.</p>
-        </div>
-      </div>
-    </div>
 
     <div class="testimonies">
+      <p
+        class="intro-content"
+      >Many of our clients have agreed to serve as references; their contact information is always available on request. With their permission, we have included below what some of our clients have said about us.</p>
       <div class="container">
         <div class="masonry-with-columns">
           <TestimonialCard
@@ -126,6 +122,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.intro-content {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 10rem 1.5rem;
+}
+
 .testimonies {
   background: $concrete;
   padding: 5.5rem 0;
@@ -167,7 +170,7 @@ export default {
 
   .masonry {
     width: 300px;
-    margin: 0 1rem 1rem 0;
+    margin: 0 1rem 2rem 0;
     display: inline-block;
     width: 100%;
   }

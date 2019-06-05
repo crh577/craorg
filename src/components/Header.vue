@@ -25,7 +25,7 @@
         </span>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
         <g-link class="nav-link" to="/warning-signs">Warning Signs</g-link>
-        <g-link class="nav-link" to="/contact-us">Contact Us</g-link>
+        <g-link class="nav-link" to="/video-training">Video Training</g-link>
       </nav>
     </header>
   </div>
@@ -224,6 +224,11 @@ export default {
         display: block;
         padding: 1.5rem 2rem;
       }
+    }
+  }
+  .gloabl-nav {
+    .header-logo {
+      margin: 2rem 0;
     }
   }
 }

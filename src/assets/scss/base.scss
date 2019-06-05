@@ -91,6 +91,15 @@ ol {
   border-radius: 0;
   padding: 0.8rem 4rem;
   background: rgba($white, 0.2);
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $mine-shaft;
+    background: $white;
+  }
 }
 
 .hidden {

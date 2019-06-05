@@ -11,13 +11,16 @@
           <div class="col-md-8 footer-right align-items-center">
             <ul class="footer-links">
               <li>
-                <g-link to="/">Home</g-link>
-              </li>
-              <li>
                 <g-link to="/about-us">About Us</g-link>
               </li>
               <li>
-                <g-link to="/our-stories">Our Services</g-link>
+                <g-link to="/our-services">Our Services</g-link>
+              </li>
+              <li>
+                <g-link to="/warning-signs">Warning Signs</g-link>
+              </li>
+              <li>
+                <g-link to="/video-training">Video Training</g-link>
               </li>
               <li>
                 <g-link to="/contact-us">Contact Us</g-link>

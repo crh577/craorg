@@ -1,17 +1,14 @@
 <template>
   <div class="col-md-3 sidebar">
     <div class="sidebar-section">
-      <h3>Workplace Violence Video</h3>
+      <h3>Workplace Violence Prevention Video</h3>
       <g-image src="~/assets/images/sidebar-video-thumbnail.png"/>
     </div>
     <div class="sidebar-section">
       <h3>Gain Insight on Workplace Aggression</h3>
-      <g-image src="~/assets/images/sidebar-book.jpg"/>
+      <g-image class="book" src="~/assets/images/sidebar-book.jpg"/>
       <br>
-      <span
-        style="font-weight:bold;"
-      >Aggression in the Workplace: Preventing and Managing High-Risk Behavior</span>
-      Order Book Link
+      <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b>
     </div>
     <div class="sidebar-section">
       <h3>Sign-Up For Our Newsletter</h3>
@@ -43,6 +40,14 @@ export default {
     font-weight: 600;
     color: $shiraz;
     padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  b {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    display: block;
   }
 
   img {
@@ -50,8 +55,15 @@ export default {
     height: auto;
   }
 
+  .book {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
   .sidebar-section {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 }
 </style>
