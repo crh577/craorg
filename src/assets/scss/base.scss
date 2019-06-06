@@ -102,6 +102,24 @@ ol {
   }
 }
 
+.base-btn-shiraz {
+  border: 1px solid $white;
+  font-size: 2rem;
+  color: $white;
+  border-radius: 0;
+  padding: 0.8rem 4rem;
+  background: $shiraz;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $white;
+    background: darken($shiraz, 10%);
+  }
+}
+
 .hidden {
   // sass-lint:disable property-units
   position: absolute;
