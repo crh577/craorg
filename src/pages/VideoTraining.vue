@@ -28,4 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h2 {
+  font-weight: 900;
+}
 </style>
