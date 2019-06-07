@@ -11,9 +11,13 @@
     <div class="container stories">
       <div class="row">
         <Story>
-          <g-image src="~/assets/images/stories/patrick-story.png"/>
+          <g-link to="/warning-signs/patrick-threatening-behavior-from-employee-under-stress">
+            <g-image src="~/assets/images/stories/patrick-story.png"/>
+          </g-link>
           <p>Patrick is a large, robust man in his 50's, often described as "bigger than life." An 18-year old employee, he has risen through the ranks to an important position, in that he has to make critical decisions related to safety compliance in a field where public and employee safty is paramount.</p>
-          <a href="#">Read More</a>
+          <g-link
+            to="/warning-signs/patrick-threatening-behavior-from-employee-under-stress"
+          >Read More</g-link>
         </Story>
         <Story>
           <g-image src="~/assets/images/stories/maria-story.png"/>
