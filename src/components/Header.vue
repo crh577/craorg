@@ -13,6 +13,7 @@
         <img class="mobile-nav-trigger" src="/svg/hamburger.svg">
       </div>
       <nav class="navbar navbar-dark" :class="{ 'show': hamMenu }">
+        <g-link class="nav-link" to="/">Home</g-link>
         <span class="nav-link-dropdown nav-link">
           <g-link class="dd-parent" to="/about-us">About Us</g-link>
           <img src="/svg/downarrow.svg">
