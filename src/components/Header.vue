@@ -18,10 +18,10 @@
           <g-link class="dd-parent" to="/about-us">About Us</g-link>
           <img src="/svg/downarrow.svg">
           <div class="drowdown-menu">
-            <g-link to="/the-team">The Team</g-link>
-            <g-link to="/our-approach">Our Approach</g-link>
-            <g-link to="/identify-respond-prevent">Identify Respond Prevent</g-link>
-            <g-link class="nav-link" to="/testimonials">Testimonials</g-link>
+            <g-link to="/about-us/the-team">The Team</g-link>
+            <g-link to="/about-us/our-approach">Our Approach</g-link>
+            <g-link to="/about-us/identify-respond-prevent">Identify Respond Prevent</g-link>
+            <g-link class="nav-link" to="/about-us/testimonials">Testimonials</g-link>
           </div>
         </span>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
