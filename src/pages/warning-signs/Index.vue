@@ -20,14 +20,19 @@
           >Read More</g-link>
         </Story>
         <Story>
-          <g-image src="~/assets/images/stories/maria-story.png"/>
+          <g-link to="/warning-signs/maria-victim-domestic-violence">
+            <g-image src="~/assets/images/stories/maria-story.png"/>
+          </g-link>
           <p>Maria was an administrative assistant who had worked for a large Fortune 500 company for 8 years. She has always worked quietly and mostly had kept to herself. Maria always received exceptional performace appraisals, but her manager had started to notice a decline in her performace over the prior 6 months...</p>
-          <a href="#">Read More</a>
+          <g-link to="/warning-signs/maria-victim-domestic-violence">Read More</g-link>
         </Story>
         <Story>
-          <g-image src="~/assets/images/stories/neil-story.png"/>
+          <g-link to="/warning-signs/neil-stressed-beyond-capacity">
+            <g-image src="~/assets/images/stories/neil-story.png"/>
+          </g-link>
+
           <p>Neil had been a good and steady employee for over 25 years with his company, serving longer than any other existing employee. His loyalty and dedtication to the organization was unquestioned, and in fact, he always went beyond what would be anyone's expectations. Neil is an extremely reserved and sensitive man, and the first word...</p>
-          <a href="#">Read More</a>
+          <g-link to="/warning-signs/neil-stressed-beyond-capacity">Read More</g-link>
         </Story>
       </div>
     </div>

@@ -59,7 +59,7 @@ export default {
     return {
       people: [
         {
-          image: require("~/assets/images/team/MarcMcElhaney.png"),
+          image: require("~/assets/images/team/MarcMcElhaney.jpg"),
           name: "Dr. Marc McElhaney",
           bio:
             "Dr. Marc McElhaney, a licensed consulting psychologist and a registered mediator, serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk."
@@ -105,14 +105,13 @@ export default {
         {
           image: require("~/assets/images/team/partner-sma.png"),
           name: "Stone McElroy Associates",
-          details:
-            "One of our primary strategic partners, Stone, McElroy & Associates (SMA) is an industry-leading nationwide firm of Police and Public Safety Psychologist. SMA provides pre-employment screening, psychological fitness-for-duty evaluations, post-critical incident management, operational consulting and hostage negotiations, primarily to public safety agencies. For more information about SMA's services, visit them here."
+          details: `One of our primary strategic partners, Stone, McElroy & Associates (SMA) is an industry-leading nationwide firm of Police and Public Safety Psychologist. SMA provides pre-employment screening, psychological fitness-for-duty evaluations, post-critical incident management, operational consulting and hostage negotiations, primarily to public safety agencies. For more information about SMA\'s services, visit them here: https://stonemcelroy.com`
         },
         {
           image: require("~/assets/images/team/partner-fortress.png"),
           name: "Fortress Consulting",
           details:
-            "With their extensive experience in law enforcement and emergency response, CRA calls upon the expertise of Fortress Consulting in a variety of situations- particularly when organizations require advice in establishing  facility-specific tactical procedures and response protocols for emergency situations, such as those involving an 'active shooter'."
+            'With their extensive experience in law enforcement and emergency response, CRA calls upon the expertise of Fortress Consulting in a variety of situations- particularly when organizations require advice in establishing  facility-specific tactical procedures and response protocols for emergency situations, such as those involving an "active shooter".'
         }
       ]
     };
