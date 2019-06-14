@@ -25,7 +25,7 @@
           </div>
         </span>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
-        <g-link class="nav-link" to="/warning-signs">Warning Signs</g-link>
+        <g-link class="nav-link" to="/case-stories">Case Stories</g-link>
         <g-link class="nav-link" to="/video-training">Video Training</g-link>
       </nav>
     </header>

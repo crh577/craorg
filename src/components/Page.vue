@@ -2,7 +2,7 @@
   <div>
     <div class="container page-content">
       <div class="row">
-        <div class="col-md-9 copy-content">
+        <div class="col-md-9 copy-content border-right-b">
           <slot>
             <p>This is where you put page content.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt similique natus, nesciunt cumque voluptate pariatur ipsam quo quis magnam commodi possimus repudiandae libero, sapiente cupiditate non nulla! Accusantium, expedita.</p>
@@ -27,7 +27,7 @@ export default {
 
 <style lang="scss">
 @media (min-width: em(768px)) {
-  .copy-content {
+  .copy-content.border-right-b {
     border-right: 1px solid $mine-shaft;
   }
 }
