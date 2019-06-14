@@ -12,6 +12,7 @@
             <a
               class="watch-video"
               href="https://www.youtube.com/watch?v=maTt5weiL5o"
+              data-lity
             >Introduction Video ></a>
           </div>
         </div>
@@ -28,6 +29,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="hero-bottom">
+            <p>Let us help you</p>
             <h1>Identify, Respond & Prevent</h1>
             <a class="btn base-btn" href="#">Call Us: (888) 391-2214</a>
           </div>
@@ -123,6 +125,11 @@ export default {
     color: $white;
     text-decoration: underline;
   }
+
+  &:active,
+  &:visited {
+    color: $white;
+  }
 }
 
 .hero-image {
@@ -133,6 +140,12 @@ export default {
   background: $cod-gray;
   text-align: center;
   padding: 4.5rem 0;
+
+  p {
+    font-size: 2.4rem;
+    font-style: italic;
+    color: $white;
+  }
 
   h1 {
     color: $white;

@@ -21,12 +21,12 @@
             <g-link to="/about-us/the-team">The Team</g-link>
             <g-link to="/about-us/our-approach">Our Approach</g-link>
             <g-link to="/about-us/identify-respond-prevent">Identify Respond Prevent</g-link>
-            <g-link class="nav-link" to="/about-us/testimonials">Testimonials</g-link>
           </div>
         </span>
         <g-link class="nav-link" to="/our-services">Our Services</g-link>
+        <g-link class="nav-link" to="/testimonials">Testimonials</g-link>
         <g-link class="nav-link" to="/case-stories">Case Stories</g-link>
-        <g-link class="nav-link" to="/video-training">Video Training</g-link>
+        <g-link class="nav-link" to="/video-materials">Video Materials</g-link>
       </nav>
     </header>
   </div>
