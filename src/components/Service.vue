@@ -35,6 +35,7 @@ export default {
 
   .copy-content {
     padding-bottom: 3rem;
+    margin: 0;
 
     h2 {
       font-weight: 900;

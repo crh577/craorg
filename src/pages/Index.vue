@@ -30,7 +30,11 @@
         <div class="col-md-12">
           <div class="hero-bottom">
             <p>Let us help you</p>
-            <h1>Identify, Respond & Prevent</h1>
+            <h1>
+              <g-link to="/about-us/identify-respond-prevent#identify">Identify</g-link>,
+              <g-link to="/about-us/identify-respond-prevent#respond">Respond</g-link>&nbsp;&
+              <g-link to="/about-us/identify-respond-prevent#prevent">Prevent</g-link>
+            </h1>
             <a class="btn base-btn" href="#">Call Us: (888) 391-2214</a>
           </div>
         </div>
@@ -151,6 +155,10 @@ export default {
     color: $white;
     font-size: 4.5rem;
     margin-bottom: 3rem;
+
+    a {
+      color: $white;
+    }
   }
 }
 

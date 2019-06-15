@@ -163,7 +163,7 @@ export default {
 }
 
 // Hamburger menu :(
-@media screen and (max-width: em(1000px)) {
+@media screen and (max-width: em(1200px)) {
   .mobile-nav {
     display: block;
     position: absolute;
