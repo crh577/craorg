@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Video Training"/>
+    <PageHeader title="Training Materials"/>
     <Page>
       <h2>Video Training Program for Employees and Managers</h2>
       <p>

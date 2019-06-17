@@ -17,10 +17,10 @@
                 <g-link to="/our-services">Our Services</g-link>
               </li>
               <li>
-                <g-link to="/warning-signs">Warning Signs</g-link>
+                <g-link to="/case-stories">Case Stories</g-link>
               </li>
               <li>
-                <g-link to="/video-training">Video Training</g-link>
+                <g-link class="nav-link" to="/training-materials">Training Materials</g-link>
               </li>
               <li>
                 <g-link to="/contact-us">Contact Us</g-link>
