@@ -18,7 +18,7 @@
         <h2>Prevention Program</h2>
         <p>Based on what we have learned through years of assessing and managing literally hundreds of these very difficult cases, CRA has developed a comprehensive Workplace Violence Prevention program that is currently being utilized by many companies, both large and small.</p>
         <p>Our program consists of 5 critical components, which are consistent with our experience and with the industry standard as generally recommended throughout the field, including The Workplace Violence Prevention and Intervention National Standard created by ASIS and SHRM (2011)*.</p>
-        <g-link class="base-btn-shiraz" to="/warning-signs">Learn More</g-link>
+        <g-link class="base-btn-shiraz" to="/our-services/prevention-program">Learn More</g-link>
       </Service>
 
       <Service>
