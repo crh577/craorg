@@ -1,8 +1,13 @@
 <template>
   <div class="col-md-3 sidebar">
     <div class="sidebar-section">
-      <h3>Workplace Violence Prevention Video</h3>
+      <h3>Workplace Violence Prevention Video Sample</h3>
       <g-image src="~/assets/images/sidebar-video-thumbnail.png"/>
+      <br>
+      <br>
+      <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
+        <b>More Infomation ></b>
+      </a>
     </div>
     <div class="sidebar-section">
       <h3>Gain Insight on Workplace Aggression</h3>
@@ -20,6 +25,12 @@
           <div style>Email</div>
           <input type="submit" value="Submit" name="Submit" style="margin-top:10px;">
         </div>
+      </div>
+      <div>
+        <br>
+        <a href="https://www.google.com">
+          <b>Browse our Newsletter Archive ></b>
+        </a>
       </div>
     </div>
   </div>
@@ -48,6 +59,13 @@ export default {
     font-size: 1.2rem;
     line-height: 1.4;
     display: block;
+  }
+  .more-video {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    display: block;
+    color: #3573bb;
   }
 
   img {
