@@ -14,6 +14,16 @@ export default {
   components: {
     Header,
     Footer
+  },
+  metaInfo() {
+    return {
+      link: [
+        {
+          rel: "canonical",
+          href: `https://craorg.com${this._routerRoot._route.path}/`
+        }
+      ]
+    };
   }
 };
 </script>

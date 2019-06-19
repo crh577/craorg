@@ -3,11 +3,11 @@
     <header class="gloabl-nav container">
       <div class="phone-number">
         <a to="tel:888.391.2214">
-          <img class="phone-logo" src="/svg/phone.svg">888.391.2214
+          <img class="phone-logo" src="/svg/phone.svg" alt="logo">888.391.2214
         </a>
       </div>
-      <g-link to="/">
-        <img class="header-logo" src="/svg/cra-logo.svg">
+      <g-link to="/" aria-label="Home">
+        <img class="header-logo" src="/svg/cra-logo.svg" alt="down arrow">
       </g-link>
       <div class="mobile-nav" @click="openHamMenu">
         <img class="mobile-nav-trigger" src="/svg/hamburger.svg">
@@ -15,18 +15,18 @@
       <nav class="navbar navbar-dark" :class="{ 'show': hamMenu }">
         <g-link class="nav-link" to="/">Home</g-link>
         <span class="nav-link-dropdown nav-link">
-          <g-link class="dd-parent" to="/about-us">About Us</g-link>
-          <img src="/svg/downarrow.svg">
+          <g-link class="dd-parent" to="/about-us/">About Us</g-link>
+          <img src="/svg/downarrow.svg" alt="down arrow">
           <div class="drowdown-menu">
-            <g-link to="/about-us/the-team">The Team</g-link>
-            <g-link to="/about-us/our-approach">Our Approach</g-link>
-            <g-link to="/about-us/identify-respond-prevent">Identify Respond Prevent</g-link>
+            <g-link to="/about-us/the-team/">The Team</g-link>
+            <g-link to="/about-us/our-approach/">Our Approach</g-link>
+            <g-link to="/about-us/identify-respond-prevent/">Identify Respond Prevent</g-link>
           </div>
         </span>
-        <g-link class="nav-link" to="/our-services">Our Services</g-link>
-        <g-link class="nav-link" to="/testimonials">Testimonials</g-link>
-        <g-link class="nav-link" to="/case-stories">Case Stories</g-link>
-        <g-link class="nav-link" to="/training-materials">Training Materials</g-link>
+        <g-link class="nav-link" to="/our-services/">Our Services</g-link>
+        <g-link class="nav-link" to="/testimonials/">Testimonials</g-link>
+        <g-link class="nav-link" to="/case-stories/">Case Stories</g-link>
+        <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
       </nav>
     </header>
   </div>

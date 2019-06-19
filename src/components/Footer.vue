@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4">
-            <g-link to="/">
-              <img class="footer-logo" src="/svg/cra-logo-white.svg">
+            <g-link to="/" aria-label="Home">
+              <img class="footer-logo" alt="logo" src="/svg/cra-logo-white.svg">
             </g-link>
           </div>
           <div class="col-md-8 footer-right align-items-center">

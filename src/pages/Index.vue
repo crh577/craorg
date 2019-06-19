@@ -3,7 +3,7 @@
     <div class="container container-home">
       <div class="row">
         <div class="col-md-6 hero-left align-items-center">
-          <g-image class="hero-image" src="~/assets/images/home/left-hero.png"/>
+          <g-image class="hero-image" src="~/assets/images/home/left-hero.png" alt/>
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Workplace Violence Prevention Program</h2>
@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
-          <g-image class="hero-image" src="~/assets/images/home/right-hero.png"/>
+          <g-image class="hero-image" src="~/assets/images/home/right-hero.png" alt/>
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Threat Assessment & Case Consultation</h2>
@@ -45,13 +45,13 @@
           <div class="clients">
             <h3>25 Years Serving Companies like Yours:</h3>
             <div class="client-logos">
-              <g-image src="~/assets/images/home/client-logo-1.png"/>
-              <g-image src="~/assets/images/home/client-logo-2.png"/>
-              <g-image src="~/assets/images/home/client-logo-3.png"/>
-              <g-image src="~/assets/images/home/client-logo-4.png"/>
-              <g-image src="~/assets/images/home/client-logo-5.png"/>
-              <g-image src="~/assets/images/home/client-logo-6.png"/>
-              <g-image src="~/assets/images/home/client-logo-7.png"/>
+              <g-image src="~/assets/images/home/client-logo-1.png" alt="Coca Cola"/>
+              <g-image src="~/assets/images/home/client-logo-2.png" alt="Starbucks Coffee"/>
+              <g-image src="~/assets/images/home/client-logo-3.png" alt="Cox"/>
+              <g-image src="~/assets/images/home/client-logo-4.png" alt="Delta"/>
+              <g-image src="~/assets/images/home/client-logo-5.png" alt="CNN"/>
+              <g-image src="~/assets/images/home/client-logo-6.png" alt="Conagra"/>
+              <g-image src="~/assets/images/home/client-logo-7.png" alt="BP"/>
             </div>
           </div>
         </div>
@@ -63,12 +63,20 @@
 <script>
 import Home from "~/layouts/Home.vue";
 
+const description =
+  "Learn How to Prevent Violence in the Workplace from One of the Countries Top Experts.";
+
 export default {
   components: {
     Home
   },
   metaInfo: {
-    title: "Critical Response Associates"
+    title: "Home",
+    meta: [
+      { name: "description", content: description },
+      { name: "og:description", content: description },
+      { name: "twitter:description", content: description }
+    ]
   }
 };
 </script>
