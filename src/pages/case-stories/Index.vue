@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Warning Signs"/>
+    <PageHeader title="Case Stroies"/>
     <div class="container page-content">
       <div class="row">
         <div class="copy-content">
@@ -11,28 +11,28 @@
     <div class="container stories">
       <div class="row">
         <Story>
-          <g-link to="/warning-signs/patrick-threatening-behavior-from-employee-under-stress">
+          <g-link to="/case-stories/patrick-threatening-behavior-from-employee-under-stress">
             <g-image src="~/assets/images/stories/patrick-story.png"/>
           </g-link>
           <p>Patrick is a large, robust man in his 50's, often described as "bigger than life." An 18-year old employee, he has risen through the ranks to an important position, in that he has to make critical decisions related to safety compliance in a field where public and employee safty is paramount.</p>
           <g-link
-            to="/warning-signs/patrick-threatening-behavior-from-employee-under-stress"
+            to="/case-stories/patrick-threatening-behavior-from-employee-under-stress"
           >Read More</g-link>
         </Story>
         <Story>
-          <g-link to="/warning-signs/maria-victim-domestic-violence">
+          <g-link to="/case-stories/maria-victim-domestic-violence">
             <g-image src="~/assets/images/stories/maria-story.png"/>
           </g-link>
           <p>Maria was an administrative assistant who had worked for a large Fortune 500 company for 8 years. She has always worked quietly and mostly had kept to herself. Maria always received exceptional performace appraisals, but her manager had started to notice a decline in her performace over the prior 6 months...</p>
-          <g-link to="/warning-signs/maria-victim-domestic-violence">Read More</g-link>
+          <g-link to="/case-stories/maria-victim-domestic-violence">Read More</g-link>
         </Story>
         <Story>
-          <g-link to="/warning-signs/neil-stressed-beyond-capacity">
+          <g-link to="/case-stories/neil-stressed-beyond-capacity">
             <g-image src="~/assets/images/stories/neil-story.png"/>
           </g-link>
 
           <p>Neil had been a good and steady employee for over 25 years with his company, serving longer than any other existing employee. His loyalty and dedtication to the organization was unquestioned, and in fact, he always went beyond what would be anyone's expectations. Neil is an extremely reserved and sensitive man, and the first word...</p>
-          <g-link to="/warning-signs/neil-stressed-beyond-capacity">Read More</g-link>
+          <g-link to="/case-stories/neil-stressed-beyond-capacity">Read More</g-link>
         </Story>
       </div>
     </div>
