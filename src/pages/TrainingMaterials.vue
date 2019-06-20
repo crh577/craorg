@@ -1,16 +1,34 @@
 <template>
   <Layout>
     <PageHeader title="Training Materials"/>
+    <div class="sub-nav">
+      <a href="#identify">Video</a> |
+      <a href="#respond">Publications</a> |
+      <a href="#prevent">Newsletter</a>
+    </div>
     <Page>
-      <h2>Video Training Program for Employees and Managers</h2>
-      <p>
-        <b>Available Online or on DVD</b>
-      </p>
+      <h2>Video Training Program for Employees &amp; Managers</h2>
+      <b>Available Online or on DVD</b>
       <p>Employee awareness is critical if an organization wishes to avoid the potential harm and costs of aggressive or disruptive behaviors. You cannot have an effective Workplace VIolence Response and Prevention program without employee participation and support.</p>
       <p>For this reason, Critical Response Associates has developed a training/awareness program that can be shown to all employees and supervisors as part of their initial orientation or ongoing training.</p>
       <p>Company employees can easily access and view this program online, or the company can purchase it on a DVD format for its internal use.</p>
       <p>In addition, the program can be completely customized, so that it is consistent with the company's image and message – and will look like a company-designed video.</p>
       <p>This program is currently available in English and Spanish, but can also be translated into any language.</p>
+      <h2>Publications</h2>
+      <p>
+        <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b>by Dr. Marc McElhaney: A comprehensive text (available in both hardcover and paperback) for human resource, security and managers in general, this book covers the full range of issues that managers confront when having to prevent, prepare for and manage high-risk incidents that can occur in the workplace.
+        <a
+          href="#"
+        >Book Description and Order Information.</a>
+      </p>
+      <p>
+        <b>Aggression in the Workplace: A Quick Reference Guide for Managers</b>
+        is a reference booklet to which supervisors can refer when faced with potentially violent or otherwise high-risk situations. These booklets can be adapted and personalized for an organization (with the company’s logos, etc.), to ensure that their managers are aware of company-specific concerns and procedures. Contact us if you are interested in these for your organization.
+      </p>
+      <h2>Newsletter</h2>
+      <b>The Critical Responder</b>
+      <p>We have begun this newsletter as a way to reach out to our colleagues and clients, in order to share some of the knowledge that is emerging in the fields of threat assessment, crisis management and conflict resolution. As each issue is published, it will be made available here in Adobe Acrobat Reader format.</p>
+      <a href="#">Visit our newsletter archive</a>
     </Page>
   </Layout>
 </template>
@@ -28,6 +46,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.sub-nav {
+  text-align: center;
+  background: $concrete;
+  padding: 3rem;
+
+  a {
+    color: $mine-shaft;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+}
 h2 {
   font-weight: 900;
 }
