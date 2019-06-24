@@ -9,11 +9,7 @@
             <h2>Workplace Violence Prevention Program</h2>
             <a class="btn base-btn" href="/our-services#prevention">Learn More</a>
             <br>
-            <a
-              class="watch-video"
-              href="https://www.youtube.com/watch?v=maTt5weiL5o"
-              data-lity
-            >Introduction Video ></a>
+            <a class="watch-video" href="/our-services/prevention-program/">Introduction Video ></a>
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
@@ -47,7 +43,7 @@
             <div class="client-logos">
               <g-image src="~/assets/images/home/client-logo-1.png" alt="Coca Cola"/>
               <g-image src="~/assets/images/home/client-logo-2.png" alt="Starbucks Coffee"/>
-              <g-image src="~/assets/images/home/client-logo-3.png" alt="Cox"/>
+              <g-image src="~/assets/images/home/client-logo-3.png" alt="Georgia Pacific"/>
               <g-image src="~/assets/images/home/client-logo-4.png" alt="Delta"/>
               <g-image src="~/assets/images/home/client-logo-5.png" alt="CNN"/>
               <g-image src="~/assets/images/home/client-logo-6.png" alt="Conagra"/>

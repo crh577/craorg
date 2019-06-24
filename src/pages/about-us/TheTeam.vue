@@ -120,6 +120,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+::v-deep .page-content {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 .partners {
   background: $concrete;
   padding: 10rem;
