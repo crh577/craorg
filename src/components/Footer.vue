@@ -7,6 +7,7 @@
             <g-link to="/" aria-label="Home">
               <img class="footer-logo" alt="logo" src="/svg/cra-logo-white.svg">
             </g-link>
+            <p class="address">P.O. Box 29644, Atlanta, GA 30359</p>
           </div>
           <div class="col-md-8 footer-right align-items-center">
             <ul class="footer-links">
@@ -45,6 +46,11 @@ export default {
 footer {
   background: $heavy-metal;
   padding: 4.5rem 0;
+}
+
+.address {
+  color: $white;
+  text-align: center;
 }
 
 .footer-right {

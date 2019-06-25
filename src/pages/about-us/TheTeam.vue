@@ -137,7 +137,7 @@ export default {
   }
 
   .intro {
-    font-size: 2.4rem;
+    font-size: $base-font-size;
     text-align: center;
     max-width: 100rem;
     margin: 0 auto 3rem;

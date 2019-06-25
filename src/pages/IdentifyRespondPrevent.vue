@@ -118,7 +118,7 @@ export default {
 }
 
 .page-content {
-  font-size: 2.4rem;
+  font-size: $base-font-size;
 
   h2 {
     font-size: 6rem;
@@ -194,7 +194,7 @@ ul li span {
     }
 
     h3 {
-      font-size: 2.4rem;
+      font-size: $base-font-size;
       font-weight: 600;
     }
   }

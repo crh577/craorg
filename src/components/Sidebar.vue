@@ -28,9 +28,9 @@
       </div>
       <div>
         <br>
-        <a href="https://www.google.com">
+        <g-link to="/newsletter-archive/">
           <b>Browse our Newsletter Archive ></b>
-        </a>
+        </g-link>
       </div>
     </div>
   </div>

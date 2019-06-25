@@ -90,7 +90,7 @@ export default {
 
 <style lang="scss" scoped>
 .page-content {
-  font-size: 2.4rem;
+  font-size: $base-font-size;
 }
 
 ul {
@@ -131,13 +131,13 @@ ul li span {
     }
 
     p {
-      font-size: 2.4rem;
+      font-size: $base-font-size;
     }
   }
 }
 
 .other-programs {
-  font-size: 2.4rem;
+  font-size: $base-font-size;
   margin: 6rem 0;
 
   h2 {

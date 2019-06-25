@@ -112,7 +112,7 @@ export default {
   text-align: center;
 
   p {
-    font-size: 2.4rem;
+    font-size: $base-font-size;
     font-style: italic;
   }
 
@@ -150,7 +150,7 @@ export default {
   padding: 4.5rem 0;
 
   p {
-    font-size: 2.4rem;
+    font-size: $base-font-size;
     font-style: italic;
     color: $white;
   }
