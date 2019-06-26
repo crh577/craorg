@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Our Services"/>
+    <PageHeader title="Newsletter Archive"/>
     <div class="container page-content">
       <p>We have begun this newsletter as a way to reach out to our colleagues and clients, in order to share some of the knowledge that is emerging in the fields of threat assessment, crisis management and conflict resolution. As each issue is published, it will be made available here in Adobe Acrobat Reader format.</p>
       <p>
