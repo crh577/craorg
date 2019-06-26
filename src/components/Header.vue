@@ -18,15 +18,16 @@
           <g-link class="dd-parent" to="/about-us/">About Us</g-link>
           <img src="/svg/downarrow.svg" alt="down arrow">
           <div class="drowdown-menu">
+            <g-link to="/about-us/">Overview</g-link>
             <g-link to="/about-us/the-team/">The Team</g-link>
             <g-link to="/about-us/our-approach/">Our Approach</g-link>
             <g-link to="/about-us/our-clients/">Our Clients</g-link>
-            <g-link to="/training-materials/">Training Materials</g-link>
           </div>
         </span>
         <g-link class="nav-link" to="/identify-respond-prevent/">Identify, Respond, Prevent</g-link>
         <g-link class="nav-link" to="/our-services/">Our Services</g-link>
         <g-link class="nav-link" to="/case-stories/">Case Stories</g-link>
+        <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
         <g-link class="nav-link" to="/contact-us/">Contact Us</g-link>
       </nav>
     </header>
@@ -164,7 +165,7 @@ export default {
 }
 
 // Hamburger menu :(
-@media screen and (max-width: em(1200px)) {
+@media (max-width: em(1330px)) {
   .mobile-nav {
     display: block;
     position: absolute;
