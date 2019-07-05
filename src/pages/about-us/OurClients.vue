@@ -86,7 +86,7 @@ export default {
         {
           quote:
             "Dr. McElhaney and Critical Response Associates have helped many of our client companies not only protect the safety of their employees during critical times but have very simply, saved them money, in terms of potential litigation costs and the numerous other indirect costs that occur when companies experience a traumatic event. Plus, utilizing their prevention program will protect the company from future incidents and charges of negligence – at a cost far less than what the company will have to incur to address even one threat-related incident.",
-          companyLogo: require("~/assets/images/testimonials/Ford.png"),
+          companyLogo: require("~/assets/images/testimonials/Gordon.png"),
           author: "Chad Shultz",
           authorTitle: "Attorney",
           authorDivision: ""
@@ -102,7 +102,7 @@ export default {
         {
           quote:
             "Dr. Marc McElhaney and Critical Response Associates are leaders in crisis and conflict management, and I cannot understate the value they provide in assisting with risk assessments and employee awareness training and prevention. I recommend them to any enterprise that values rapid response, professional guidance and effective resolutions in challenging situations.",
-          companyLogo: require("~/assets/images/testimonials/Moog.png"),
+          companyLogo: require("~/assets/images/testimonials/Milliken.png"),
           author: "Tom Gilkeson",
           authorTitle: "Vice President,",
           authorDivision: "Global Security"
