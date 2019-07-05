@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Our Team"/>
+    <PageHeader title="Our Team" />
     <div class="container page-content">
       <div class="row">
         <div class="copy-content">
@@ -112,6 +112,12 @@ export default {
           name: "Fortress Consulting",
           details:
             'With their extensive experience in law enforcement and emergency response, CRA calls upon the expertise of Fortress Consulting in a variety of situations- particularly when organizations require advice in establishing  facility-specific tactical procedures and response protocols for emergency situations, such as those involving an "active shooter".'
+        },
+        {
+          image: "",
+          name: "Global Partners",
+          details:
+            "CRA relies on consultation with a range of international colleagues when we are advising on cases occurring in various parts of the world. Currently, we have partnerships with threat assessment professionals based in Germany, the Netherlands, Finland, Hong Kong and Australia, each of whom also have connections throughout their respective regions, that we can call upon as needed."
         }
       ]
     };
