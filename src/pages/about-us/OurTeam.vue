@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="The Team"/>
+    <PageHeader title="Our Team"/>
     <div class="container page-content">
       <div class="row">
         <div class="copy-content">

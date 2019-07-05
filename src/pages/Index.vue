@@ -9,7 +9,7 @@
             <h2>Workplace Violence Prevention Program</h2>
             <a class="btn base-btn" href="/our-services#prevention">Learn More</a>
             <br>
-            <a class="watch-video" href="/our-services/prevention-program/">Introduction Video ></a>
+            <!-- <a class="watch-video" href="/our-services/prevention-program/">Introduction Video ></a> -->
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
@@ -162,6 +162,11 @@ export default {
 
     a {
       color: $white;
+      text-decoration: underline;
+
+      &:hover {
+        color: darken($white, 30%);
+      }
     }
   }
 }

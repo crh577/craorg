@@ -15,12 +15,12 @@ export default {
 
 <style lang="scss" scoped>
 .page-heading {
-  padding: 10rem 0;
+  padding: 7rem 0;
 
   h1 {
     color: $white;
     text-align: center;
-    font-size: 7.5rem;
+    font-size: 6rem;
   }
 }
 </style>

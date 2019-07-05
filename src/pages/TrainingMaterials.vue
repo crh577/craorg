@@ -21,14 +21,10 @@
           href="#"
         >Book Description and Order Information.</a>
       </p>
-      <p>
-        <b>Aggression in the Workplace: A Quick Reference Guide for Managers</b>
-        is a reference booklet to which supervisors can refer when faced with potentially violent or otherwise high-risk situations. These booklets can be adapted and personalized for an organization (with the company’s logos, etc.), to ensure that their managers are aware of company-specific concerns and procedures. Contact us if you are interested in these for your organization.
-      </p>
       <h2 id="newsletter">Newsletter</h2>
       <b>The Critical Responder</b>
       <p>We have begun this newsletter as a way to reach out to our colleagues and clients, in order to share some of the knowledge that is emerging in the fields of threat assessment, crisis management and conflict resolution. As each issue is published, it will be made available here in Adobe Acrobat Reader format.</p>
-      <a href="#">Visit our newsletter archive</a>
+      <g-link to="/newsletter-archive">Visit our newsletter archive</g-link>
     </Page>
   </Layout>
 </template>
