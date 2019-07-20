@@ -17,9 +17,7 @@
       <h2 id="publication">Publications</h2>
       <p>
         <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b>by Dr. Marc McElhaney: A comprehensive text (available in both hardcover and paperback) for human resource, security and managers in general, this book covers the full range of issues that managers confront when having to prevent, prepare for and manage high-risk incidents that can occur in the workplace.
-        <a
-          href="#"
-        >Book Description and Order Information.</a>
+        <g-link to="/book-sale-information">Book Description and Order Information.</g-link>
       </p>
       <h2 id="newsletter">Newsletter</h2>
       <b>The Critical Responder</b>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Contact Us"/>
+    <PageHeader title="Contact Us" />
     <Page>
       <form class="contact-form">
         <label>
@@ -9,11 +9,11 @@
         </label>
         <div class="field-group">
           <div class="input-container">
-            <input type="text" name="first-name">
+            <input type="text" name="first-name" />
             <div>First</div>
           </div>
           <div class="input-container">
-            <input type="text" name="last-name">
+            <input type="text" name="last-name" />
             <div>Last</div>
           </div>
         </div>
@@ -23,7 +23,7 @@
           <span class="required">*</span>
         </label>
         <div class="field-group full">
-          <input type="text" name="email">
+          <input type="text" name="email" />
         </div>
 
         <label>
@@ -38,8 +38,8 @@
 
       <div class="address">
         Critical Response Associates LLC.
-        <br>P.O. Box 29644, Atlanta, Georgia 30359
-        <br>Tel. 888.391.2214
+        <br />P.O. Box 29644, Atlanta, Georgia 30359
+        <br />Tel. 888.391.2214
       </div>
     </Page>
   </Layout>
@@ -60,7 +60,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .contact-form {
   label {
     font-weight: 600;
