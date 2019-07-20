@@ -3,20 +3,20 @@
     <header class="gloabl-nav container">
       <div class="phone-number">
         <a to="tel:888.391.2214">
-          <img class="phone-logo" src="/svg/phone.svg" alt="logo">888.391.2214
+          <img class="phone-logo" src="/svg/phone.svg" alt="logo" />888.391.2214
         </a>
       </div>
       <g-link to="/" aria-label="Home">
-        <img class="header-logo" src="/svg/cra-logo.svg" alt="down arrow">
+        <img class="header-logo" src="/svg/cra-logo.svg" alt="down arrow" />
       </g-link>
       <div class="mobile-nav" @click="openHamMenu">
-        <img class="mobile-nav-trigger" src="/svg/hamburger.svg">
+        <img class="mobile-nav-trigger" src="/svg/hamburger.svg" />
       </div>
       <nav class="navbar navbar-dark" :class="{ 'show': hamMenu }">
         <g-link class="nav-link" to="/">Home</g-link>
         <span class="nav-link-dropdown nav-link">
           <g-link class="dd-parent" to="/about-us/">About Us</g-link>
-          <img src="/svg/downarrow.svg" alt="down arrow">
+          <img src="/svg/downarrow.svg" alt="down arrow" />
           <div class="drowdown-menu">
             <g-link to="/about-us/">Overview</g-link>
             <g-link to="/about-us/our-team/">Our Team</g-link>
@@ -30,9 +30,9 @@
         <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
         <span class="nav-link-dropdown nav-link">
           <g-link class="dd-parent" to="/contact-us/">Contact Us</g-link>
-          <img src="/svg/downarrow.svg" alt="down arrow">
+          <img src="/svg/downarrow.svg" alt="down arrow" />
           <div class="drowdown-menu">
-            <g-link to="/newsletter-signup/">Newsletter</g-link>
+            <g-link to="/newsletter-archive/">Newsletter</g-link>
           </div>
         </span>
       </nav>

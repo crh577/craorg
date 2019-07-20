@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <PageHeader title="Our Team" />
-    <div class="container page-content">
+    <div class="container">
       <div class="row">
-        <div class="copy-content">
+        <div class="intro-content">
           <p>CRA is comprised of a team of psychologists, behavioral specialists and trainers who specialize exclusively in the areas of threat assessment, critical incident management and behavioral health consultation. Our core consulting team are licensed psychologists who have years (typically decades) of experience in the assessment and strategic management of high-risk situations within a wide variety of circumstances, and have the flexibility to be called upon on an as-needed basis.</p>
         </div>
       </div>
@@ -126,10 +126,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-::v-deep .page-content {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.intro-content {
+  text-align: left;
+  font-size: 2.4rem;
+  padding: 10rem 0 4rem;
 }
+
 .partners {
   background: $concrete;
   padding: 10rem;

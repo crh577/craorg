@@ -2,7 +2,7 @@
   <Layout>
     <PageHeader title="Case Stroies" />
     <div class="bg-contain">
-      <div class="container page-content">
+      <div class="container">
         <div class="row">
           <div class="intro-content">
             <p>Our services are requested for a very wide variety of issues (at a frequency of close to 300 cases a year), such that it is virtually impossible to provide a brief illustration of our work. Each day, and each case, is unique. On this page, we will be briefly summarizing recent casework, as examples of the range and nature of our work. (Names and identifying data have been changed to protect the identify of the subject individual and the organization.)</p>
@@ -57,10 +57,9 @@ export default {
 }
 
 .intro-content {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 600;
-  padding: 10rem 0 10rem;
+  text-align: left;
+  font-size: 2.4rem;
+  padding: 6rem 0 2rem;
 }
 
 .stories {
