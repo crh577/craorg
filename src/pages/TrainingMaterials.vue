@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Training Materials"/>
+    <PageHeader title="Training Materials" />
     <div class="sub-nav">
       <a href="#video">Video</a> |
       <a href="#publication">Publications</a> |
@@ -42,6 +42,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#video {
+  padding-bottom: 2rem;
+}
+
 .sub-nav {
   text-align: center;
   background: $concrete;

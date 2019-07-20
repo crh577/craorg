@@ -3,17 +3,19 @@
     <div class="container container-home">
       <div class="row">
         <div class="col-md-6 hero-left align-items-center">
-          <g-image class="hero-image" src="~/assets/images/home/left-hero.png" alt/>
+          <g-image class="hero-image" src="~/assets/images/home/left-hero-desk.png" alt />
+          <g-image class="hero-image-mobile" src="~/assets/images/home/left-hero.png" alt />
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Workplace Violence Prevention Program</h2>
             <a class="btn base-btn" href="/our-services#prevention">Learn More</a>
-            <br>
+            <br />
             <!-- <a class="watch-video" href="/our-services/prevention-program/">Introduction Video ></a> -->
           </div>
         </div>
         <div class="col-md-6 hero-right align-items-center">
-          <g-image class="hero-image" src="~/assets/images/home/right-hero.png" alt/>
+          <g-image class="hero-image" src="~/assets/images/home/right-hero-desk.png" alt />
+          <g-image class="hero-image-mobile" src="~/assets/images/home/right-hero.png" alt />
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Threat Assessment & Case Consultation</h2>
@@ -41,13 +43,13 @@
           <div class="clients">
             <h3>25 Years Serving Companies like Yours:</h3>
             <div class="client-logos">
-              <g-image src="~/assets/images/home/client-logo-1.png" alt="Coca Cola"/>
-              <g-image src="~/assets/images/home/client-logo-2.png" alt="Starbucks Coffee"/>
-              <g-image src="~/assets/images/home/client-logo-3.png" alt="Georgia Pacific"/>
-              <g-image src="~/assets/images/home/client-logo-4.png" alt="Delta"/>
-              <g-image src="~/assets/images/home/client-logo-5.png" alt="CNN"/>
-              <g-image src="~/assets/images/home/client-logo-6.png" alt="Conagra"/>
-              <g-image src="~/assets/images/home/client-logo-7.png" alt="BP"/>
+              <g-image src="~/assets/images/home/client-logo-1.png" alt="Coca Cola" />
+              <g-image src="~/assets/images/home/client-logo-2.png" alt="Starbucks Coffee" />
+              <g-image src="~/assets/images/home/client-logo-3.png" alt="Georgia Pacific" />
+              <g-image src="~/assets/images/home/client-logo-4.png" alt="Delta" />
+              <g-image src="~/assets/images/home/client-logo-5.png" alt="CNN" />
+              <g-image src="~/assets/images/home/client-logo-6.png" alt="Conagra" />
+              <g-image src="~/assets/images/home/client-logo-7.png" alt="BP" />
             </div>
           </div>
         </div>
@@ -91,6 +93,10 @@ export default {
 .hero-left,
 .hero-right {
   position: relative;
+}
+
+.hero-image-mobile {
+  display: none;
 }
 
 .hero-left {
@@ -224,6 +230,15 @@ export default {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-image-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
   .hero-left {
     padding-right: 15px;
   }

@@ -2,32 +2,36 @@
   <div class="col-md-3 sidebar">
     <div class="sidebar-section">
       <h3>Workplace Violence Prevention Video Sample</h3>
-      <g-image src="~/assets/images/sidebar-video-thumbnail.png"/>
-      <br>
-      <br>
+      <g-image src="~/assets/images/sidebar-video-thumbnail.png" />
+      <br />
+      <br />
       <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
         <b>More Infomation ></b>
       </a>
     </div>
     <div class="sidebar-section">
       <h3>Gain Insight on Workplace Aggression</h3>
-      <g-image class="book" src="~/assets/images/sidebar-book.jpg"/>
-      <br>
-      <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b>
+      <g-image class="book" src="~/assets/images/sidebar-book.jpg" />
+      <br />
+      <b>
+        <g-link
+          to="/book-sale-information"
+        >Aggression in the Workplace: Preventing and Managing High-Risk Behavior</g-link>
+      </b>
     </div>
     <div class="sidebar-section">
       <h3>Sign-Up For Our Newsletter</h3>
       <div style="padding:15px;background-color:#D6BCB6;min-height:150px;">
         <div>
-          <input type="text" class="form-control" name="name">
+          <input type="text" class="form-control" name="name" />
           <div style>Full Name</div>
-          <input type="Email" class="form-control" name="email" style="margin-top:10px;">
+          <input type="Email" class="form-control" name="email" style="margin-top:10px;" />
           <div style>Email</div>
-          <input type="submit" value="Submit" name="Submit" style="margin-top:10px;">
+          <input type="submit" value="Submit" name="Submit" style="margin-top:10px;" />
         </div>
       </div>
       <div>
-        <br>
+        <br />
         <g-link to="/newsletter-archive/">
           <b>Browse our Newsletter Archive ></b>
         </g-link>
