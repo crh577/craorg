@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Case Stroies" />
+    <PageHeader title="Our Stroies" />
     <div class="bg-contain">
       <div class="container">
         <div class="row">

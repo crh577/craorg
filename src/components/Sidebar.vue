@@ -2,7 +2,9 @@
   <div class="col-md-3 sidebar">
     <div class="sidebar-section">
       <h3>Workplace Violence Prevention Video Sample</h3>
-      <g-image src="~/assets/images/sidebar-video-thumbnail.png" />
+      <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
+        <g-image src="~/assets/images/sidebar-video-thumbnail.png" />
+      </a>
       <br />
       <br />
       <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
@@ -11,7 +13,9 @@
     </div>
     <div class="sidebar-section">
       <h3>Gain Insight on Workplace Aggression</h3>
-      <g-image class="book" src="~/assets/images/sidebar-book.jpg" />
+      <g-link to="/book-sale-information">
+        <g-image class="book" src="~/assets/images/sidebar-book.jpg" />
+      </g-link>
       <br />
       <b>
         <g-link

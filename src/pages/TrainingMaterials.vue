@@ -7,7 +7,7 @@
       <a href="#newsletter">Newsletter</a>
     </div>
     <Page>
-      <h2 id="video">Video Training Program for Employees &amp; Managers</h2>
+      <h2 id="video">Video Training Program for Employees and Managers</h2>
       <b>Available Online or on DVD</b>
       <p>Employee awareness is critical if an organization wishes to avoid the potential harm and costs of aggressive or disruptive behaviors. You cannot have an effective Workplace VIolence Response and Prevention program without employee participation and support.</p>
       <p>For this reason, Critical Response Associates has developed a training/awareness program that can be shown to all employees and supervisors as part of their initial orientation or ongoing training.</p>
@@ -16,7 +16,11 @@
       <p>This program is currently available in English and Spanish, but can also be translated into any language.</p>
       <h2 id="publication">Publications</h2>
       <p>
-        <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b>by Dr. Marc McElhaney: A comprehensive text (available in both hardcover and paperback) for human resource, security and managers in general, this book covers the full range of issues that managers confront when having to prevent, prepare for and manage high-risk incidents that can occur in the workplace.
+        <b>Aggression in the Workplace: Preventing and Managing High-Risk Behavior</b> by Dr. Marc McElhaney: A comprehensive text (available in both hardcover and paperback) for human resource, security and managers in general, this book covers the full range of issues that managers confront when having to prevent, prepare for and manage high-risk incidents that can occur in the workplace.
+        <g-link to="/book-sale-information">Book Description and Order Information.</g-link>
+      </p>
+      <p>
+        <b>Aggression in the Workplace: A Quick Reference Guide for Managers</b> by Dr. Marc McElhaney: A comprehensive text (available in both hardcover and paperback) for human resource, security and managers in general, this book covers the full range of issues that managers confront when having to prevent, prepare for and manage high-risk incidents that can occur in the workplace.
         <g-link to="/book-sale-information">Book Description and Order Information.</g-link>
       </p>
       <h2 id="newsletter">Newsletter</h2>
@@ -40,8 +44,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#video {
-  padding-bottom: 2rem;
+.copy-content h2 {
+  margin: 3rem 0;
 }
 
 .sub-nav {
