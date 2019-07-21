@@ -14,15 +14,14 @@ export default {
 
 <style lang="scss" scoped>
 .story {
-  // border: 1px solid $shiraz;
   box-sizing: border-box;
-  padding: 2rem 3rem;
   margin-bottom: 3rem;
   border-radius: $border-radius;
   background: $white;
 
   p {
     font-size: 1.8rem;
+    padding: 2rem 3rem;
   }
 }
 </style>
