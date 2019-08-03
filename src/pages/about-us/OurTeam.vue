@@ -17,8 +17,9 @@
           :image="person.image"
           :name="person.name"
           :title="person.title"
-          :bio="person.bio"
-        />
+        >
+          <p v-html="person.bio"></p>
+        </TeamBio>
       </div>
     </div>
 
@@ -64,7 +65,7 @@ export default {
           name: "Dr. Marc McElhaney",
           title: "CEO & Director of Professional Services",
           bio:
-            "Dr. Marc McElhaney, a licensed consulting psychologist and a registered mediator, serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk."
+            'Dr. Marc McElhaney serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk incidents, and is a charter officer of the Atlanta/Southeast Chapter of the Association of Threat Assessment Professionals (ATAP). He has also helped schools and corporations develop workplace violence policies and crisis response programs, and presents workshops and training programs in the areas of workplace violence prevention, conflict resolution and crisis management. Dr. McElhaney is the author of <a href="/book-sale-information/">Aggression in the Workplace: Preventing and Managing High-Risk Behavior"</a>'
         },
         {
           image: require("~/assets/images/team/LisaHS_Final.jpg"),
