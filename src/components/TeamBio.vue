@@ -1,10 +1,11 @@
 <template>
   <div class="col-xl-6 team-bio">
     <div class="bio-image">
-      <img :src="image">
+      <img :src="image" />
     </div>
     <div class="bio-copy">
       <h2>{{ name }}</h2>
+      <p class="title">{{ title }}</p>
       <p>{{ bio }}</p>
     </div>
   </div>
@@ -16,6 +17,7 @@ export default {
   props: {
     image: String,
     name: String,
+    title: String,
     bio: String
   }
 };
@@ -33,6 +35,12 @@ export default {
   .bio-copy {
     h2 {
       font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-size: 1.4rem;
+      padding: 0;
     }
 
     p {
