@@ -113,7 +113,7 @@ export default {
         {
           image: require("~/assets/images/team/partner-sma.png"),
           name: "Stone McElroy Associates",
-          details: `One of our primary strategic partners, Stone, McElroy & Associates (SMA) is an industry-leading nationwide firm of Police and Public Safety Psychologist. SMA provides pre-employment screening, psychological fitness-for-duty evaluations, post-critical incident management, operational consulting and hostage negotiations, primarily to public safety agencies. For more information about SMA\'s services, visit them here: https://stonemcelroy.com`
+          details: `One of our primary strategic partners, Stone, McElroy & Associates (SMA) is an industry-leading nationwide firm of Police and Public Safety psychologists. SMA provides pre-employment screening, psychological fitness-for-duty evaluations, post-critical incident management, operational consulting and hostage negotiations, primarily to public safety agencies. For more information about SMA\'s services, visit them here: https://stonemcelroy.com`
         },
         {
           image: require("~/assets/images/team/partner-fortress.png"),
