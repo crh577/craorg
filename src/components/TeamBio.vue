@@ -6,7 +6,7 @@
     <div class="bio-copy">
       <h2>{{ name }}</h2>
       <p class="title">{{ title }}</p>
-      <p>{{ bio }}</p>
+      <slot />
     </div>
   </div>
 </template>
