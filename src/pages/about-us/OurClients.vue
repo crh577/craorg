@@ -37,17 +37,17 @@ export default {
       testimonials: [
         {
           quote:
-            "Thank you for the expert counsel and advice you have provided BP on numerous past workplace violence incidents. Assessing and predicting human behavior is an extemly difficult task and having your resources available to us gives us great comfort. On behalf of BP Corporation, I would also like to extend our thanks and appreciation for the recent training sessions you conducted at several of BP's U.S. and South African facilities.",
+            "Thank you for the expert counsel and advice you have provided BP on numerous past workplace violence incidents. Assessing and predicting human behavior is an extemly difficult task and having your resources available to us gives us great comfort. I would also like to extend our thanks and appreciation for the recent training sessions you conducted at several of BP's U.S. and South African facilities.",
           companyLogo: require("~/assets/images/testimonials/Bp.png"),
-          author: "John Manelos",
+          author: "John Manelos (retired)",
           authorTitle: "VP, Corporate Security,",
           authorDivision: "Gulf Coast Restoration"
         },
         {
           quote:
-            "CRA has intervened in several very difficult situations with troubled employees and have assisted us in reaching a positive resolution in all cases. In addition they have provided valuable training in dealing with issues involving potential workplace violence to our Corporate and Field Human Resources personnel, and Dr. Carol Beavers has provided outstanding personal coaching to several key managers. The services provided to Caraustar by Critical Response Associates have been consistently of the highest professional caliber and I would, without reservation, recommend them as a resource for crisis and conflict management as well as managerial coaching to any organization with needs in these areas.",
+            "CRA has intervened in several very difficult situations with troubled employees and have assisted us in reaching a positive resolution in all cases. In addition they have provided valuable training in dealing with issues involving potential workplace violence to our Corporate and Field Human Resources personnel. I would, without reservation, recommend them.",
           companyLogo: require("~/assets/images/testimonials/Caraustar.png"),
-          author: "Barry A. Smedstad ",
+          author: "Barry A. Smedstad (retired)",
           authorTitle: "Vice President,",
           authorDivision: "Human Resources And Public Relations"
         },
@@ -64,7 +64,7 @@ export default {
             "Dr. McElhaney and his associates at CRA have been an integral part of our Workplace Violence Program for over 20 years.  They serve as an invaluable partner, bringing effective resolution strategies to very sensitive and complex issues.  Highly recommend.",
           companyLogo: require("~/assets/images/testimonials/CocaCola.png"),
           author: "Leslie Davis (retired)",
-          authorTitle: "Director of Safe Workplace Program",
+          authorTitle: "Vice President",
           authorDivision: ""
         },
         {
@@ -72,7 +72,7 @@ export default {
             "We have utilized the services of Dr. McElhaney and his associates at CRA on numerous occasions when faced with potential threats to our employees here at Cox Enterprises. We particularly have appreciated their ability to remotely analyze threatening communications and to help us strategize responses to some potentially very explosive situations. They have been a very valuable resource for our Threat Response Team.",
           companyLogo: require("~/assets/images/testimonials/Cox.png"),
           author: "Bob Brand (retired)",
-          authorTitle: "Vice President,",
+          authorTitle: "Director of Safe Workplace Program,",
           authorDivision: "Corporate Security"
         },
         {
@@ -95,7 +95,7 @@ export default {
           quote:
             "In all cases, CRA has consistently provided prudent advice and innovative ideas that contributed significantly to successful interventions and effective solutions that otherwise could have escalated and become much more serious problems. I sincerely appreciate your professionalism, resourcefulness and, most of all, your caring attitudes about people.",
           companyLogo: require("~/assets/images/testimonials/Gap.png"),
-          author: "Rosalind Jackson",
+          author: "Rosalind Jackson (retired)",
           authorTitle: "Workplace Violence Prevention Programs",
           authorDivision: ""
         },
@@ -147,7 +147,7 @@ export default {
 
 .testimonies {
   background: $concrete;
-  padding: 5.5rem 0;
+  padding: 2.5rem 0 5.5rem;
 
   .testimonial-card {
     background: $white;

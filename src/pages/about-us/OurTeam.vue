@@ -93,7 +93,7 @@ export default {
           name: "Dr. Joseph Konieczny",
           title: "Consulting Psychologist",
           bio:
-            "Besides his work with CRA, Dr. Joseph Konieczny currently serves as a Consulting Psychologist with Cuyahoga County (Ohio) Juvenile Court Diagnostic Clinic and the District Five Forensic Center in Mansfield, Ohio. As such, he is responsible for conducting psychological evaluations of offenders for the courts, in regards to sentencing, custody and other forensic issues. In addition, he conducts psychological evaluations for the Bureau of Disability Determination in his home State of Ohio."
+            "Besides his work with CRA, Dr. Joseph Konieczny has served as a Consulting Psychologist with Cuyahoga County (Ohio) Juvenile Court Diagnostic Clinic and the District Five Forensic Center in Mansfield, Ohio. As such, he was responsible for conducting psychological evaluations of offenders for the courts, in regards to sentencing, custody and other forensic issues. In addition, he conducts psychological evaluations for the Bureau of Disability Determination in his home State of Ohio."
         },
         {
           image: require("~/assets/images/team/HeatherHS_Final.jpg"),
@@ -138,7 +138,7 @@ export default {
 .intro-content {
   text-align: left;
   font-size: 2.4rem;
-  padding: 10rem 0 4rem;
+  padding: 5rem 0 4rem;
 }
 
 .partners {

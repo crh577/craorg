@@ -5,7 +5,7 @@
         <div class="row align-items-center">
           <div class="col-md-4">
             <g-link to="/" aria-label="Home">
-              <img class="footer-logo" alt="logo" src="/svg/cra-logo-white.svg">
+              <img class="footer-logo" alt="logo" src="/svg/cra-logo-white.svg" />
             </g-link>
             <p class="address">P.O. Box 29644, Atlanta, GA 30359</p>
           </div>
@@ -18,7 +18,7 @@
                 <g-link to="/our-services">Our Services</g-link>
               </li>
               <li>
-                <g-link to="/case-stories">Case Stories</g-link>
+                <g-link to="/case-stories">Our Stories</g-link>
               </li>
               <li>
                 <g-link class="nav-link" to="/training-materials">Training Materials</g-link>

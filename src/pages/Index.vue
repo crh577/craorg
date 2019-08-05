@@ -8,7 +8,7 @@
           <div class="hero-copy">
             <p>I’m Looking for a</p>
             <h2>Workplace Violence Prevention Program</h2>
-            <a class="btn base-btn" href="/our-services#prevention">Learn More</a>
+            <a class="btn base-btn" href="/our-services/prevention-program/">Learn More</a>
             <br />
             <!-- <a class="watch-video" href="/our-services/prevention-program/">Introduction Video ></a> -->
           </div>
@@ -111,7 +111,7 @@ export default {
   width: 100%;
   height: 100%;
   position: absolute;
-  padding: 25% 9%;
+  padding: 15% 9%;
   top: 0;
   left: 0;
   color: $white;

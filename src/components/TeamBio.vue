@@ -30,6 +30,10 @@ export default {
 
   .bio-image {
     padding-right: 3rem;
+
+    img {
+      max-width: 15rem;
+    }
   }
 
   .bio-copy {

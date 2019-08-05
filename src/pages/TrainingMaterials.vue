@@ -1,11 +1,6 @@
 <template>
   <Layout>
     <PageHeader title="Training Materials" />
-    <div class="sub-nav">
-      <a href="#video">Video</a> |
-      <a href="#publication">Publications</a> |
-      <a href="#newsletter">Newsletter</a>
-    </div>
     <Page>
       <h2 id="video">Video Training Program for Employees and Managers</h2>
       <b>Available Online or on DVD</b>

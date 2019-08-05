@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Our Stroies" />
+    <PageHeader title="Our Stories" />
     <div class="bg-contain">
       <div class="container">
         <div class="row">

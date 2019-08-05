@@ -8,7 +8,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt similique natus, nesciunt cumque voluptate pariatur ipsam quo quis magnam commodi possimus repudiandae libero, sapiente cupiditate non nulla! Accusantium, expedita.</p>
           </slot>
         </div>
-        <Sidebar/>
+        <Sidebar />
       </div>
     </div>
   </div>
@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style lang="scss">
+.copy-content {
+  padding: 0 4rem;
+}
+
 @media (min-width: em(768px)) {
   .copy-content.border-right-b {
     border-right: 1px solid $mine-shaft;

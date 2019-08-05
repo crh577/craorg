@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHeader title="Identify Respond Prevent"/>
+    <PageHeader title="Identify! Respond! Prevent!" />
     <div class="sub-nav">
       <a href="#identify">Identify</a> |
       <a href="#respond">Respond</a> |
@@ -8,7 +8,7 @@
     </div>
     <div class="container page-content">
       <h2 id="identify">Identify</h2>
-      <p>
+      <p class="intro">
         <strong>The first, critical step in an effective Workplace Violence Prevention Program is identifying individuals who are at risk. The earlier that we can do that, the better. Tragic cases of workplace violence have occurred because decision-makers 1) were not made aware of high-risk indicators early enough, and/or 2) did not effectively respond.</strong>
       </p>
       <div class="two-col">
@@ -39,28 +39,28 @@
         </p>
       </div>
       <h2 id="respond">Respond</h2>
-      <p>
+      <p class="intro">
         <strong>Once a potential risk has been identified, the organization should undergo a defined process to make sure that it is carefully assessed and managed, without defaulting to ill-considered responses that could actually escalate the danger.</strong>
       </p>
       <div class="three-col">
         <div class="col">
-          <g-image src="~/assets/images/irp/assessment.jpg" alt/>
+          <g-image src="~/assets/images/irp/assessment.jpg" alt />
           <h3>Establishing A Threat Assessment Process</h3>
           <p>Our motto is that “good management is dependent on good assessment.” Before reacting in a manner that may somehow “feel right”, a careful and considered assessment should occur. A recipe book of “default” responses that are applicable to all situations just does not exist. Each situation is different and is driven by its own set of critical factors that will have to be considered before it can be effectively managed.</p>
         </div>
         <div class="col">
-          <g-image src="~/assets/images/irp/management.jpg" alt/>
+          <g-image src="~/assets/images/irp/management.jpg" alt />
           <h3>Strategic Threat Management</h3>
           <p>It is always important to make certain that our response to any perceived threat is one that is well considered, addresses the specific dynamics of the threat, is proportional to the risk, considers the consequences, and, above all, does not escalate the risk. Having a trained internal Threat Management Team in consultation with a Threat Assessment Professional helps to ensure that the correct decisions are made that will ensure a safe conclusion. This training is part of the company’s overall WVPP.</p>
         </div>
         <div class="col">
-          <g-image src="~/assets/images/irp/termination.jpg" alt/>
+          <g-image src="~/assets/images/irp/termination.jpg" alt />
           <h3>Termination Planning</h3>
           <p>The separation of an identified high-risk employee is a special category that requires careful assessment and management. Many termination-related incidents of workplace violence occur long after the day of separation. There is much that can be accomplished to assess and control those risks prior to the termination, but most of those options disappear after the separation. This is often not just a simple matter of calling security to walk someone out the door. Think long-term!</p>
         </div>
       </div>
       <h2 id="prevent">Prevent</h2>
-      <p>
+      <p class="intro">
         <strong>The ability to consistently and efficiently identify high-risk behaviors and situations early requires a comprehensive program be in place. This program must incorporate several key ingredients, especially the ability to respond in a considered and timely manner that ensures everyone’s safety. We do not advise that you make it up as you go.</strong>
       </p>
       <p>
@@ -115,6 +115,10 @@ export default {
     font-size: 2.2rem;
     font-weight: bold;
   }
+}
+
+.intro {
+  font-size: 2.4rem;
 }
 
 .page-content {
