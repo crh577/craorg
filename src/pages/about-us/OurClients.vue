@@ -142,7 +142,9 @@ export default {
   text-align: center;
   font-size: 3rem;
   font-weight: 600;
-  padding: 3rem 12rem 4rem;
+  padding: 3rem 0 4rem;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .testimonies {

@@ -7,7 +7,7 @@
       <a href="#prevent">Prevent</a>
     </div>
     <div class="container page-content">
-      <h2 id="identify">Identify</h2>
+      <h2 id="identify">Identify!</h2>
       <p class="intro">
         <strong>The first, critical step in an effective Workplace Violence Prevention Program is identifying individuals who are at risk. The earlier that we can do that, the better. Tragic cases of workplace violence have occurred because decision-makers 1) were not made aware of high-risk indicators early enough, and/or 2) did not effectively respond.</strong>
       </p>
@@ -38,7 +38,7 @@
           <g-link to="/our-services/prevention-program/">Workplace Violence Prevention Program</g-link>, so that these behaviors are recognized and identified as early as possible.
         </p>
       </div>
-      <h2 id="respond">Respond</h2>
+      <h2 id="respond">Respond!</h2>
       <p class="intro">
         <strong>Once a potential risk has been identified, the organization should undergo a defined process to make sure that it is carefully assessed and managed, without defaulting to ill-considered responses that could actually escalate the danger.</strong>
       </p>
@@ -59,7 +59,7 @@
           <p>The separation of an identified high-risk employee is a special category that requires careful assessment and management. Many termination-related incidents of workplace violence occur long after the day of separation. There is much that can be accomplished to assess and control those risks prior to the termination, but most of those options disappear after the separation. This is often not just a simple matter of calling security to walk someone out the door. Think long-term!</p>
         </div>
       </div>
-      <h2 id="prevent">Prevent</h2>
+      <h2 id="prevent">Prevent!</h2>
       <p class="intro">
         <strong>The ability to consistently and efficiently identify high-risk behaviors and situations early requires a comprehensive program be in place. This program must incorporate several key ingredients, especially the ability to respond in a considered and timely manner that ensures everyone’s safety. We do not advise that you make it up as you go.</strong>
       </p>
