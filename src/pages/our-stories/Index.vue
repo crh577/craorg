@@ -72,9 +72,10 @@ export default {
 }
 
 .intro-content {
-  text-align: left;
+  text-align: center;
   font-size: 2.4rem;
-  padding: 10rem 0 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
 }
 
 .stories {

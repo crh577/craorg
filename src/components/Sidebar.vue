@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .sidebar {
-  padding: 2rem 3rem;
+  padding: 1.2rem 3rem;
 
   h3 {
     font-size: 2.2rem;

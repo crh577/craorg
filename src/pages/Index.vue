@@ -79,7 +79,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container-home {
   max-width: 1340px;
 

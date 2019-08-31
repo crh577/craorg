@@ -138,7 +138,8 @@ export default {
 .intro-content {
   text-align: left;
   font-size: 2.4rem;
-  padding: 5rem 0 4rem;
+  padding: 2rem 0;
+  font-weight: bold;
 }
 
 .partners {
