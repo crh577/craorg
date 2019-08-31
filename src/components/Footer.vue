@@ -18,7 +18,7 @@
                 <g-link to="/our-services">Our Services</g-link>
               </li>
               <li>
-                <g-link to="/case-stories">Our Stories</g-link>
+                <g-link to="/our-stories">Our Stories</g-link>
               </li>
               <li>
                 <g-link class="nav-link" to="/training-materials">Training Materials</g-link>

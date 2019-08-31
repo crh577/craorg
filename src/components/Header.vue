@@ -22,19 +22,18 @@
             <g-link to="/about-us/our-team/">Our Team</g-link>
             <g-link to="/about-us/our-approach/">Our Approach</g-link>
             <g-link to="/about-us/our-clients/">Our Clients</g-link>
-            <g-link to="/about-us/identify-respond-prevent/">Identify, Respond, Prevent</g-link>
           </div>
         </span>
         <g-link class="nav-link" to="/our-services/">Our Services</g-link>
         <g-link class="nav-link" to="/our-stories/">Our Stories</g-link>
-        <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
         <span class="nav-link-dropdown nav-link">
-          <g-link class="dd-parent" to="/contact-us/">Contact Us</g-link>
+          <g-link class="dd-parent" to="/training-materials/">Training Materials</g-link>
           <img src="/svg/downarrow.svg" alt="down arrow" />
           <div class="drowdown-menu">
             <g-link to="/newsletter-archive/">Newsletter</g-link>
           </div>
         </span>
+        <g-link class="nav-link" to="/contact-us/">Contact Us</g-link>
       </nav>
     </header>
   </div>

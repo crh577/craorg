@@ -14,7 +14,7 @@
       <p>This book takes a comprehensive view that covers the broad range of aggression control strategies that an organization can utilize, from the fundamental building blocks of a primary prevention program to specific techniques that the manager can use to defuse and stabilize situations that are already threatening to explode.</p>
       <p>Utilizing a risk management approach that focuses on the process of how these situations evolve, as opposed to an oversimplified presentation of “profiles”, will provide the manager with the needed tools to prevent and effectively intervene, to ensure a safe and cost-effective resolution.</p>
       <p>Specific high-risk situations, such as employee termination, are discussed in detail, along with strategies that Dr. McElhaney has found to be particularly effective when having to stabilize, control and ultimately ensure a safe and long-lasting conclusion.</p>
-      <div class="book-testimonial">
+      <div class="gray-section">
         <p>“This is “the “primer” on workplace aggression/violence. A must read for HR and security professionals as well as anyone who manages or supervises employees.”</p>
         <p>
           John Manelos
@@ -31,8 +31,6 @@
         <a href="/Book Review.pdf">A Review of Aggression in the Workplace</a>
 
         <a href="/Table of Contents.pdf">Table of Contents</a>
-
-        <a href="/About the Authorrevised.pdf">Sample Pages</a>
       </p>
       <table border="0" style="magin: 30px auto; display: block;">
         <tbody>
@@ -236,9 +234,6 @@
         <br />
         <br />
         <b>Note:</b> A 10% discount will be given for 5 or more books. Shipping and handling charges (Fedex or UPS ground) are free with every purchase
-        <br />
-        <br />
-        <b>Description:</b> These are situations that often seem to explode in the workplace without warning, when in fact, they have often long incubated outside the manager’s awareness. Utilizing a risk management approach that focuses on the process of how these situations evolve, as opposed to an oversimplified presentation of "profiles", will provide the manager with the needed tools to prevent and effectively intervene, to ensure a safe and cost-effective resolution. This book takes a comprehensive view that covers the broad range of aggression control strategies that an organization can utilize, from the fundamental building blocks of a primary prevention program to specific techniques that the manager can use to defuse and stabilize situations that are already threatening to explode. In between, the author presents a step-by-step description of the assessment and intervention process that should occur when and if an organization is faced with a potentially dangerous set of circumstances. Utilizing an approach that combines his knowledge and experience from the fields of threat assessment, risk management, conflict resolution and crisis negotiation, the author focuses on an approach that not only addresses the organization’s immediate needs, but strives for a resolution and management plan that also addresses the organization’s long-term safety concerns.
       </p>
     </div>
   </Layout>
@@ -254,10 +249,16 @@ export default {
 };
 </script>
 <style lang="scss">
-.book-testimonial {
-  border: 2px solid $mine-shaft;
-  padding: 2rem 4rem;
-  margin-bottom: 3rem;
+.page-content {
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+.gray-section {
+  background: $concrete;
+  padding: 4rem 6rem;
+  margin: 2rem 0 4rem;
 }
 
 .links a {
