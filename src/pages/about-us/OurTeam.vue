@@ -68,6 +68,13 @@ export default {
             'Dr. Marc McElhaney serves as CRA’s CEO and directs the Critical Response Team. Dr. McElhaney works exclusively in the areas of threat assessment, critical incident management and conflict resolution. Since 1977, he has consulted with hundreds of organizations (typically large corporations and law enforcement agencies) in regards to the assessment, management and resolution of high-risk incidents, and is a charter officer of the Atlanta/Southeast Chapter of the Association of Threat Assessment Professionals (ATAP). He has also helped schools and corporations develop workplace violence policies and crisis response programs, and presents workshops and training programs in the areas of workplace violence prevention, conflict resolution and crisis management. Dr. McElhaney is the author of <a href="/book-sale-information/">Aggression in the Workplace: Preventing and Managing High-Risk Behavior"</a>'
         },
         {
+          image: require("~/assets/images/team/NancyHS_Final.jpg"),
+          name: "Dr. Nancy Gup",
+          title: "Consulting Psychologist",
+          bio:
+            "As the Director of Client and Consulting Services for Gup & Associates, Inc., Dr. Nancy Gup, Licensed Psychologist, has been providing quality employee assistance and behavioral health services to businesses on a national basis since 1991. She brings to CRA a broad background that includes psychological disability management, executive coaching, drug free workplace consultation, training & development programs, and over fifteen years teaching at the university level. She has presented at several national professional conferences including the American Psychological Association and American Psychological Society Conferences."
+        },
+        {
           image: require("~/assets/images/team/LisaHS_Final.jpg"),
           name: "Lisa Millsor",
           title: "Business Manager",
@@ -81,20 +88,7 @@ export default {
           bio:
             "Dr. Thomas Evans is the Clinical Director of the Cuyahoga County Juvenile Court Diagnostic Clinic, located in Cleveland, Ohio. He is an Assistant Clinical Instructor at Case Western Reserve University, University Hospitals of Cleveland, Department of Child Psychiatry. He is also the President of The Institute of the Study of Interpersonal Violence, a non-profit organization that conducts research in all aspects of violence, including school violence, stalking, domestic violence and child abuse. Tom is involved in all aspects of the risk assessment process, and specializes in fitness for duty evaluations."
         },
-        {
-          image: require("~/assets/images/team/NancyHS_Final.jpg"),
-          name: "Dr. Nancy Gup",
-          title: "Consulting Psychologist",
-          bio:
-            "As the Director of Client and Consulting Services for Gup & Associates, Inc., Dr. Nancy Gup, Licensed Psychologist, has been providing quality employee assistance and behavioral health services to businesses on a national basis since 1991. She brings to CRA a broad background that includes psychological disability management, executive coaching, drug free workplace consultation, training & development programs, and over fifteen years teaching at the university level. She has presented at several national professional conferences including the American Psychological Association and American Psychological Society Conferences."
-        },
-        {
-          image: require("~/assets/images/team/JoeHS_Final.jpg"),
-          name: "Dr. Joseph Konieczny",
-          title: "Consulting Psychologist",
-          bio:
-            "Besides his work with CRA, Dr. Joseph Konieczny has served as a Consulting Psychologist with Cuyahoga County (Ohio) Juvenile Court Diagnostic Clinic and the District Five Forensic Center in Mansfield, Ohio. As such, he was responsible for conducting psychological evaluations of offenders for the courts, in regards to sentencing, custody and other forensic issues. In addition, he conducts psychological evaluations for the Bureau of Disability Determination in his home State of Ohio."
-        },
+
         {
           image: require("~/assets/images/team/HeatherHS_Final.jpg"),
           name: "Dr. Heather McElroy",
@@ -108,6 +102,13 @@ export default {
           title: "Trainer",
           bio:
             "As the owner and Director of Train Intervene Prevent (TIP), Rosalind Jackson develops and delivers programs for CRA that focus on workplace violence awareness and prevention. In her previous position as manager of Georgia-Pacific’s workplace violence prevention program, Roz advised managers and HR professionals faced with potential workplace violence interventions, and was responsible for developing company-wide training programs. She also serves as production manager for the Security Executive Council, has served as a charter officer of the Atlanta/Southeast Chapter of the Association of Threat Assessment Professionals (ATAP), and is actively involved with the Partnership Against Domestic Violence."
+        },
+        {
+          image: require("~/assets/images/team/JoeHS_Final.jpg"),
+          name: "Dr. Joseph Konieczny",
+          title: "Consulting Psychologist",
+          bio:
+            "Besides his work with CRA, Dr. Joseph Konieczny has served as a Consulting Psychologist with Cuyahoga County (Ohio) Juvenile Court Diagnostic Clinic and the District Five Forensic Center in Mansfield, Ohio. As such, he was responsible for conducting psychological evaluations of offenders for the courts, in regards to sentencing, custody and other forensic issues. In addition, he conducts psychological evaluations for the Bureau of Disability Determination in his home State of Ohio."
         }
       ],
       partners: [
