@@ -12,7 +12,7 @@
       </p>
       <p>
         In recent years, CRA has expanded its services to include a comprehensive
-        <g-link to="/prevention-program/">Workplace Violence Prevention Program</g-link>&nbsp;with related
+        <g-link to="/our-services/prevention-program/">Workplace Violence Prevention Program</g-link>&nbsp;with related
         <g-link to="/training-materials/">videos</g-link>&nbsp;and training materials, developed based on what we have learned through our experiences in literally thousands of these cases.
       </p>
       <p>Since our founding, we have provided consultation and training to over 300 organizations (including many Fortune 100 companies) across a variety of diverse industries and environments, managing an average of 250-300 high-risk cases annually.</p>

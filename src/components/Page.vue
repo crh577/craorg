@@ -27,12 +27,17 @@ export default {
 
 <style lang="scss">
 .copy-content {
-  padding: 0 4rem;
+  padding: 0 6rem;
 }
 
 @media (min-width: em(768px)) {
   .copy-content.border-right-b {
     border-right: 1px solid $mine-shaft;
+  }
+}
+@media (max-width: em(768px)) {
+  .copy-content {
+    padding: 0 2rem;
   }
 }
 </style>
