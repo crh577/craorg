@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <PageHeader title="Prevention Program"/>
+    <PageHeader title="Prevention Program" />
     <div class="container page-content">
-      <p>
+      <p class="intro">
         <b>The implementation of a single prevention-based employee training program will be much less costly than what the company will spend on a single incident.</b>
       </p>
       <p>
@@ -40,7 +40,10 @@
         </div>
         <div class="program">
           <h2>Employee Awareness Training</h2>
-          <p>For employees at all levels. Highlights the company’s policy and expectations of their employees, the designated reporting process and the basic warning signs of potentially high-risk individuals.</p>
+          <p>
+            For employees at all levels. Highlights the company’s policy and expectations of their employees, the designated reporting process and the basic warning signs of potentially high-risk individuals. CRA has produced an employee
+            <g-link to="/training-materials/">video training program</g-link>&nbsp;that is widely used among our clients.
+          </p>
         </div>
         <div class="program">
           <h2>Critical Personnel Training</h2>
@@ -91,6 +94,10 @@ export default {
 <style lang="scss" scoped>
 .page-content {
   font-size: $base-font-size;
+
+  .intro {
+    font-size: 2.4rem;
+  }
 }
 
 ul {
@@ -107,8 +114,8 @@ ul li span {
 
 .gray-section {
   background: $concrete;
-  padding: 3rem 0;
-  margin: 6rem 0;
+  padding: 2rem 0;
+  margin: 2rem 0;
 
   p {
     text-align: center;
@@ -138,16 +145,16 @@ ul li span {
 
 .other-programs {
   font-size: $base-font-size;
-  margin: 6rem 0;
+  margin: 2rem 0;
 
   h2 {
     font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
   }
 
   ul {
-    padding-left: 10rem;
+    padding-left: 4rem;
   }
 }
 

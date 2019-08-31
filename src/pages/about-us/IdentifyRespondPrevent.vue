@@ -108,7 +108,7 @@ export default {
 .sub-nav {
   text-align: center;
   background: $concrete;
-  padding: 3rem;
+  padding: 2rem;
 
   a {
     color: $mine-shaft;
@@ -152,7 +152,7 @@ ul li span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 2rem 0;
 
   .col {
     width: 50%;
@@ -170,8 +170,8 @@ ul li span {
 
 .gray-section {
   background: $concrete;
-  padding: 6rem;
-  margin: 6rem 0 15rem;
+  padding: 4rem 6rem;
+  margin: 2rem 0 4rem;
 
   h3 {
     text-align: center;
@@ -183,7 +183,7 @@ ul li span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 2rem 0;
 
   .col {
     width: 33%;
@@ -194,12 +194,12 @@ ul li span {
       text-align: center;
       width: 80%;
       height: auto;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
 
     h3 {
       font-size: $base-font-size;
-      font-weight: 600;
+      font-weight: bold;
     }
   }
 }
