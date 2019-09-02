@@ -2,39 +2,14 @@
   <Layout>
     <PageHeader title="Contact Us" />
     <Page>
-      <form class="contact-form">
-        <label>
-          Name
-          <span class="required">*</span>
-        </label>
-        <div class="field-group">
-          <div class="input-container">
-            <input type="text" name="first-name" />
-            <div>First</div>
-          </div>
-          <div class="input-container">
-            <input type="text" name="last-name" />
-            <div>Last</div>
-          </div>
-        </div>
-
-        <label>
-          Email
-          <span class="required">*</span>
-        </label>
-        <div class="field-group full">
-          <input type="text" name="email" />
-        </div>
-
-        <label>
-          Comment or Message
-          <span class="required">*</span>
-        </label>
-        <div class="field-group full">
-          <textarea rows="5"></textarea>
-        </div>
-        <button class="button">Submit</button>
-      </form>
+      <div
+        class="typeform-widget"
+        data-url="https://davemcguire.typeform.com/to/YnuIbb"
+        data-transparency="50"
+        data-hide-headers="true"
+        data-hide-footer="true"
+        style="width: 100%; height: 500px;"
+      ></div>
 
       <div class="address">
         Critical Response Associates LLC.
@@ -53,6 +28,27 @@ export default {
   components: {
     PageHeader,
     Page
+  },
+  mounted() {
+    (function() {
+      var qs,
+        js,
+        q,
+        s,
+        d = document,
+        gi = d.getElementById,
+        ce = d.createElement,
+        gt = d.getElementsByTagName,
+        id = "typef_orm",
+        b = "https://embed.typeform.com/";
+      if (!gi.call(d, id)) {
+        js = ce.call(d, "script");
+        js.id = id;
+        js.src = b + "embed.js";
+        q = gt.call(d, "script")[0];
+        q.parentNode.insertBefore(js, q);
+      }
+    })();
   },
   metaInfo: {
     title: "About us"

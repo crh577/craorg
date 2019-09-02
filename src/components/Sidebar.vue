@@ -25,15 +25,16 @@
     </div>
     <div class="sidebar-section">
       <h3>Sign-Up For Our Newsletter</h3>
-      <div style="padding:15px;background-color:#D6BCB6;min-height:150px;">
-        <div>
-          <input type="text" class="form-control" name="name" />
-          <div style>Full Name</div>
-          <input type="Email" class="form-control" name="email" style="margin-top:10px;" />
-          <div style>Email</div>
-          <input type="submit" value="Submit" name="Submit" style="margin-top:10px;" />
-        </div>
-      </div>
+
+      <div
+        class="typeform-widget"
+        data-url="https://davemcguire.typeform.com/to/RgpiXq"
+        data-transparency="50"
+        data-hide-headers="true"
+        data-hide-footer="true"
+        style="width: 100%; height: 250px;"
+      ></div>
+
       <div>
         <br />
         <g-link to="/newsletter-archive/">
@@ -46,13 +47,34 @@
 
 <script>
 export default {
-  name: "Sidebar"
+  name: "Sidebar",
+  mounted() {
+    (function() {
+      var qs,
+        js,
+        q,
+        s,
+        d = document,
+        gi = d.getElementById,
+        ce = d.createElement,
+        gt = d.getElementsByTagName,
+        id = "typef_orm",
+        b = "https://embed.typeform.com/";
+      if (!gi.call(d, id)) {
+        js = ce.call(d, "script");
+        js.id = id;
+        js.src = b + "embed.js";
+        q = gt.call(d, "script")[0];
+        q.parentNode.insertBefore(js, q);
+      }
+    })();
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .sidebar {
-  padding: 1.2rem 3rem;
+  padding: 0 3rem 1.2rem;
 
   h3 {
     font-size: 2.2rem;

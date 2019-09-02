@@ -41,6 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 .intro {
+  padding-top: 0;
   font-size: 2.4rem;
 }
 </style>

@@ -2,7 +2,7 @@
   <Layout>
     <PageHeader title="Training Materials" />
     <Page>
-      <h2 id="video" style="margin-top: .5rem;">Video Training Program for Employees and Managers</h2>
+      <h2 id="video" style="margin-top: 0;">Video Training Program for Employees and Managers</h2>
       <b>Available Online or on DVD</b>
       <p>Employee awareness is critical if an organization wishes to avoid the potential harm and costs of aggressive or disruptive behaviors. You cannot have an effective Workplace VIolence Response and Prevention program without employee participation and support.</p>
       <p>For this reason, Critical Response Associates has developed a training/awareness program that can be shown to all employees and supervisors as part of their initial orientation or ongoing training.</p>

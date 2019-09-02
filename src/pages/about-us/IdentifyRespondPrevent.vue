@@ -199,7 +199,7 @@ ul li span {
 
     h3 {
       font-size: $base-font-size;
-      font-weight: bold;
+      font-weight: 900;
     }
   }
 }
