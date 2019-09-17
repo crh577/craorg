@@ -2,12 +2,20 @@
   <div class="col-md-3 sidebar">
     <div class="sidebar-section">
       <h3>Workplace Violence Prevention Video Sample</h3>
-      <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
+      <a
+        class="more-video"
+        href="https://www.youtube.com/watch?v=maTt5weiL5o"
+        data-lity
+      >
         <g-image src="~/assets/images/sidebar-video-thumbnail.png" />
       </a>
       <br />
       <br />
-      <a class="more-video" href="https://www.youtube.com/watch?v=maTt5weiL5o" data-lity>
+      <a
+        class="more-video"
+        href="https://www.youtube.com/watch?v=maTt5weiL5o"
+        data-lity
+      >
         <b>More Infomation ></b>
       </a>
     </div>
@@ -18,9 +26,10 @@
       </g-link>
       <br />
       <b>
-        <g-link
-          to="/book-sale-information"
-        >Aggression in the Workplace: Preventing and Managing High-Risk Behavior</g-link>
+        <g-link to="/book-sale-information"
+          >Aggression in the Workplace: Preventing and Managing High-Risk
+          Behavior</g-link
+        >
       </b>
     </div>
     <div class="sidebar-section">
@@ -68,10 +77,13 @@ export default {
         q.parentNode.insertBefore(js, q);
       }
     })();
-  }
+  },
+  metaInfo: {}
 };
 </script>
-
+<style>
+@import "./lity.min.css";
+</style>
 <style lang="scss" scoped>
 .sidebar {
   padding: 0 3rem 1.2rem;
