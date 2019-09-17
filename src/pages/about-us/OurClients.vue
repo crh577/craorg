@@ -3,9 +3,11 @@
     <PageHeader title="Testimonials" />
 
     <div class="testimonies">
-      <p
-        class="intro-content"
-      >Many of our clients have agreed to serve as references; their contact information is always available on request. With their permission, we have included below what some of our clients have said about us.</p>
+      <p class="intro-content">
+        Many of our clients have agreed to serve as references; their contact
+        information is always available on request. With their permission, we
+        have included below what some of our clients have said about us.
+      </p>
       <div class="container">
         <div class="masonry-with-columns">
           <TestimonialCard
@@ -64,16 +66,16 @@ export default {
             "Dr. McElhaney and his associates at CRA have been an integral part of our Workplace Violence Program for over 20 years.  They serve as an invaluable partner, bringing effective resolution strategies to very sensitive and complex issues.  Highly recommend.",
           companyLogo: require("~/assets/images/testimonials/CocaCola.png"),
           author: "Leslie Davis (retired)",
-          authorTitle: "Director of Safe Workplace Program,",
-          authorDivision: "Corporate Security"
+          authorTitle: "Vice President",
+          authorDivision: ""
         },
         {
           quote:
             "We have utilized the services of Dr. McElhaney and his associates at CRA on numerous occasions when faced with potential threats to our employees here at Cox Enterprises. We particularly have appreciated their ability to remotely analyze threatening communications and to help us strategize responses to some potentially very explosive situations. They have been a very valuable resource for our Threat Response Team.",
           companyLogo: require("~/assets/images/testimonials/Cox.png"),
           author: "Bob Brand (retired)",
-          authorTitle: "Vice President",
-          authorDivision: ""
+          authorTitle: "Director of Safe Workplace Program,",
+          authorDivision: "Corporate Security"
         },
         {
           quote:

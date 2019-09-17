@@ -12,7 +12,7 @@
       <div class="mobile-nav" @click="openHamMenu">
         <img class="mobile-nav-trigger" src="/svg/hamburger.svg" />
       </div>
-      <nav class="navbar navbar-dark" :class="{ 'show': hamMenu }">
+      <nav class="navbar navbar-dark" :class="{ show: hamMenu }">
         <g-link class="nav-link" to="/">Home</g-link>
         <span class="nav-link-dropdown nav-link">
           <g-link class="dd-parent" to="/about-us/">About Us</g-link>
@@ -26,13 +26,9 @@
         </span>
         <g-link class="nav-link" to="/our-services/">Our Services</g-link>
         <g-link class="nav-link" to="/our-stories/">Our Stories</g-link>
-        <span class="nav-link-dropdown nav-link">
-          <g-link class="dd-parent" to="/training-materials/">Training Materials</g-link>
-          <img src="/svg/downarrow.svg" alt="down arrow" />
-          <div class="drowdown-menu">
-            <g-link to="/newsletter-archive/">Newsletter</g-link>
-          </div>
-        </span>
+        <g-link class="nav-link" to="/training-materials/"
+          >Training Materials</g-link
+        >
         <g-link class="nav-link" to="/contact-us/">Contact Us</g-link>
       </nav>
     </header>
