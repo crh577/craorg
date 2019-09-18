@@ -14,11 +14,19 @@
       <p>This book takes a comprehensive view that covers the broad range of aggression control strategies that an organization can utilize, from the fundamental building blocks of a primary prevention program to specific techniques that the manager can use to defuse and stabilize situations that are already threatening to explode.</p>
       <p>Utilizing a risk management approach that focuses on the process of how these situations evolve, as opposed to an oversimplified presentation of “profiles”, will provide the manager with the needed tools to prevent and effectively intervene, to ensure a safe and cost-effective resolution.</p>
       <p>Specific high-risk situations, such as employee termination, are discussed in detail, along with strategies that Dr. McElhaney has found to be particularly effective when having to stabilize, control and ultimately ensure a safe and long-lasting conclusion.</p>
-      <div class="gray-section">
-        <p>“This is “the “primer” on workplace aggression/violence. A must read for HR and security professionals as well as anyone who manages or supervises employees.”</p>
+      <div>
         <p>
-          John Manelos
-          <br />VP Security and Crisis Management
+          <i>
+            <b>“This is “the “primer” on workplace aggression/violence. A must read for HR and security professionals as well as anyone who manages or supervises employees.”</b>
+          </i>
+        </p>
+        <p>
+          <i>
+            <b>
+              John Manelos
+              <br />VP Security and Crisis Management
+            </b>
+          </i>
         </p>
       </div>
       <p class="links">
