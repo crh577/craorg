@@ -15,7 +15,7 @@ export default function(Vue, { router, head, isClient }) {
       body: true
     },
     {
-      src: "./lity.min.js",
+      src: "~/lity.min.js",
       body: true
     }
   );
