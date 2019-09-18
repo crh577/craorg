@@ -15,7 +15,7 @@ export default function(Vue, { router, head, isClient }) {
       body: true
     },
     {
-      src: "~/lity.min.js",
+      src: "https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.0/lity.min.js",
       body: true
     }
   );
