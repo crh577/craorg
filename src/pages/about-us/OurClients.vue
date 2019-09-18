@@ -63,19 +63,19 @@ export default {
         },
         {
           quote:
-            "Dr. McElhaney and his associates at CRA have been an integral part of our Workplace Violence Program for over 20 years.  They serve as an invaluable partner, bringing effective resolution strategies to very sensitive and complex issues.  Highly recommend.",
-          companyLogo: require("~/assets/images/testimonials/CocaCola.png"),
-          author: "Leslie Davis (retired)",
-          authorTitle: "Vice President",
-          authorDivision: ""
-        },
-        {
-          quote:
             "We have utilized the services of Dr. McElhaney and his associates at CRA on numerous occasions when faced with potential threats to our employees here at Cox Enterprises. We particularly have appreciated their ability to remotely analyze threatening communications and to help us strategize responses to some potentially very explosive situations. They have been a very valuable resource for our Threat Response Team.",
           companyLogo: require("~/assets/images/testimonials/Cox.png"),
           author: "Bob Brand (retired)",
           authorTitle: "Director of Safe Workplace Program,",
           authorDivision: "Corporate Security"
+        },
+        {
+          quote:
+            "Dr. McElhaney and his associates at CRA have been an integral part of our Workplace Violence Program for over 20 years.  They serve as an invaluable partner, bringing effective resolution strategies to very sensitive and complex issues.  Highly recommend.",
+          companyLogo: require("~/assets/images/testimonials/CocaCola.png"),
+          author: "Leslie Davis (retired)",
+          authorTitle: "Vice President",
+          authorDivision: ""
         },
         {
           quote:
