@@ -93,6 +93,24 @@ ol {
   }
 }
 
+.base-btn-blue {
+  border: 1px solid $white;
+  font-size: 2rem;
+  color: $white;
+  border-radius: 5px;
+  padding: 0.8rem 4rem;
+  background: #007faa;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $white;
+    background: darken(#007faa, 10%);
+  }
+}
+
 .base-btn-shiraz {
   border: 1px solid $white;
   font-size: 2rem;
