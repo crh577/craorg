@@ -2,14 +2,15 @@
   <Layout>
     <PageHeader title="Contact Us" />
     <Page>
-      <div
-        class="typeform-widget"
-        data-url="https://davemcguire.typeform.com/to/YnuIbb"
-        data-transparency="50"
-        data-hide-headers="true"
-        data-hide-footer="true"
-        style="width: 100%; height: 500px;"
-      ></div>
+      <iframe
+        height="790"
+        title="Embedded Wufoo Form"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        style="width:100%;border:none"
+        src="https://davemcguire.wufoo.com/embed/z19xriqk09fkxbp/"
+      ></iframe>
 
       <div class="address">
         Critical Response Associates LLC.
@@ -28,27 +29,6 @@ export default {
   components: {
     PageHeader,
     Page
-  },
-  mounted() {
-    (function() {
-      var qs,
-        js,
-        q,
-        s,
-        d = document,
-        gi = d.getElementById,
-        ce = d.createElement,
-        gt = d.getElementsByTagName,
-        id = "typef_orm",
-        b = "https://embed.typeform.com/";
-      if (!gi.call(d, id)) {
-        js = ce.call(d, "script");
-        js.id = id;
-        js.src = b + "embed.js";
-        q = gt.call(d, "script")[0];
-        q.parentNode.insertBefore(js, q);
-      }
-    })();
   },
   metaInfo: {
     title: "About us"
