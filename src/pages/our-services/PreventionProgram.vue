@@ -30,7 +30,7 @@
       </p>
 
 
-         <h2 class="heading">Four levels of training are available through in-person sessions or video-based, and can be combined, modified and adapted as needed:</h2>
+         <h2 class="heading">Four levels of training are available through in-person sessions or video-based, & can be combined, modified & adapted as needed:</h2>
       
 
 
