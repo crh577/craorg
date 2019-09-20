@@ -5,9 +5,9 @@
       <p class="intro">
         <b>The implementation of a single prevention-based employee training program will be much less costly than what the company will spend on a single incident.</b>
       </p>
-      <p>
+      
         <h2 class="heading">As an organization, you must determine:</h2>
-      </p>
+      
       <ul>
         <li>
           Will our employees or members be able to identify high-risk behaviors early enough and then report them appropriately?
@@ -30,8 +30,8 @@
       </p>
 
 
-         <h2 class="heading">Four levels of training are available</h2>
-         <p><b> through in-person sessions or video-based, and can be combined, modified and adapted as needed:</b></p>
+         <h2 class="heading">Four levels of training are available through in-person sessions or video-based, and can be combined, modified and adapted as needed:</h2>
+      
 
 
       <div class="programs" style="margin-bottom: 3rem;">
