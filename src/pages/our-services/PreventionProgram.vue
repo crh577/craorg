@@ -109,6 +109,7 @@ export default {
 
 ul {
   margin-left: 3rem;
+  font-weight: bold;
 }
 
 ul li {
