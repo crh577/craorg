@@ -5,6 +5,7 @@
       <p class="intro">
         <b>The implementation of a single prevention-based employee training program will be much less costly than what the company will spend on a single incident.</b>
       </p>
+      <div class="other-programs">
       <div class="program" style="margin-bottom: 2rem;">
         <h2 class="heading">As an organization, you must determine:</h2>
        </div>
@@ -28,6 +29,7 @@
       <p style="margin-bottom: 3rem;">
         <b>CRA offers prevention-based employee training programs that can reduce the risks to the organization, its employees and clientele, reduce the company's legal exposure, and reduce the costs of disruptive events.</b>
       </p>
+       </div>
 
         <div class="program" style="margin-bottom: 2rem;">
          <h2 class="heading">Four levels of training are available through in-person sessions or video-based, & can be combined, modified & adapted as needed:</h2>
