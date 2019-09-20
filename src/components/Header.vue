@@ -2,7 +2,7 @@
   <div>
     <header class="gloabl-nav container">
       <div class="phone-number">
-        <a to="tel:888.391.2214">
+        <a href="tel:888.391.2214">
           <img class="phone-logo" src="/svg/phone.svg" alt="logo" />888.391.2214
         </a>
       </div>
@@ -26,9 +26,7 @@
         </span>
         <g-link class="nav-link" to="/our-services/">Our Services</g-link>
         <g-link class="nav-link" to="/our-stories/">Our Stories</g-link>
-        <g-link class="nav-link" to="/training-materials/"
-          >Training Materials</g-link
-        >
+        <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
         <g-link class="nav-link" to="/contact-us/">Contact Us</g-link>
       </nav>
     </header>
@@ -78,13 +76,17 @@ export default {
 
 .gloabl-nav .phone-number {
   font-size: 2.2rem;
-  color: $shiraz;
+
   letter-spacing: 0;
   text-align: right;
   line-height: 32px;
   position: absolute;
   top: 0;
   right: 3.4rem;
+
+  a {
+    color: $shiraz;
+  }
 }
 
 .navbar a {
@@ -129,7 +131,7 @@ export default {
 .drowdown-menu {
   opacity: 0;
   position: absolute;
-  pointer-events: none;
+  // pointer-events: none;
   transition: all 300ms linear;
   background: $white;
   box-shadow: $box-shadow;
@@ -206,6 +208,7 @@ export default {
         opacity: 1;
         position: relative;
         box-shadow: none;
+        pointer-events: auto;
 
         a {
           padding: 1.5rem 4rem;
