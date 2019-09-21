@@ -33,7 +33,7 @@
               <g-link to="/about-us/identify-respond-prevent#respond">Respond</g-link>&nbsp;&
               <g-link to="/about-us/identify-respond-prevent#prevent">Prevent</g-link>
             </h1>
-            <a class="btn base-btn" href="#">Call Us: (888) 391-2214</a>
+            <a class="btn base-btn" href="tel:8883912214">Call Us: (888) 391-2214</a>
           </div>
         </div>
       </div>

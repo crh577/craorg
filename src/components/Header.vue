@@ -2,7 +2,7 @@
   <div>
     <header class="gloabl-nav container">
       <div class="phone-number">
-        <a href="tel:888.391.2214">
+        <a href="tel:8883912214">
           <img class="phone-logo" src="/svg/phone.svg" alt="logo" />888.391.2214
         </a>
       </div>
