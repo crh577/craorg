@@ -18,6 +18,7 @@
       <p style="margin-bottom: 3rem;">
         <b>CRA offers prevention-based employee training programs that can reduce the risks to the organization, its employees and clientele, reduce the company's legal exposure, and reduce the costs of disruptive events.</b>
       </p>
+       </div>
 
       <h2
         class="heading"
@@ -97,6 +98,7 @@ export default {
 
 ul {
   margin-left: 3rem;
+  font-weight: bold;
 }
 
 ul li {
