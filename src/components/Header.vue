@@ -2,9 +2,7 @@
   <div>
     <header class="gloabl-nav container">
       <div class="phone-number">
-        <a href="tel:8883912214">
-          <img class="phone-logo" src="/svg/phone.svg" alt="logo" />888.391.2214
-        </a>
+        <img class="phone-logo" src="/svg/phone.svg" alt="logo" />888.391.2214
       </div>
       <g-link to="/" aria-label="Home">
         <img class="header-logo" src="/svg/cra-logo.svg" alt="down arrow" />
@@ -76,17 +74,13 @@ export default {
 
 .gloabl-nav .phone-number {
   font-size: 2.2rem;
-
   letter-spacing: 0;
   text-align: right;
   line-height: 32px;
   position: absolute;
   top: 0;
   right: 3.4rem;
-
-  a {
-    color: $shiraz;
-  }
+  color: $shiraz;
 }
 
 .navbar a {
