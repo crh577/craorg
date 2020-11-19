@@ -1,6 +1,7 @@
 <template>
   <Home>
     <div class="container container-home">
+      <!-- Testing GIT commit -->
       <div class="row">
         <div class="col-md-6 hero-left align-items-center">
           <g-image class="hero-image" src="~/assets/images/home/left-hero-desk.png" alt />
